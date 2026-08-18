@@ -7,7 +7,7 @@ Built as a learning project toward **SiL-style validation** of autonomous-drivin
 ## Status (honest)
 
 - [x] Scaffold: evaluation harness + FPS bench + CARLA client code
-- [ ] **Phase 1 — run on my machine**: driving-class evaluation on COCO val2017, results table below
+- [x] **Phase 1 — run on my machine**: driving-class evaluation on COCO val2017, results table below (2026-08-18)
 - [ ] **Phase 2 — CARLA closed-loop** (requires Linux + GPU): ego vehicle + camera + live YOLO inference in the simulator
 
 > Phase 2 code lives in [`carla/`](carla/) and is **untested until checked off** — CARLA has no macOS build, so it waits for a Linux/GPU session.
@@ -33,11 +33,14 @@ make fps     # inference FPS on this machine
 
 ## Results
 
-*(to be filled from my runs — `runs/results.csv`)*
+*(from my runs — raw data in `runs/results.csv`)*
 
-| Run | Model | Dataset | mAP50-95 (driving classes) | FPS | Hardware |
-|---|---|---|---|---|---|
-| — | — | — | — | — | — |
+| Run | Model | Dataset | mAP50-95 (driving classes) | mAP50 | FPS @640 | Hardware |
+|---|---|---|---|---|---|---|
+| 2026-08-18 | yolov8n | COCO val2017 (5,000 img) | **0.436** | 0.612 | 76.2 (mps) / ~8 (cpu) | Apple M1 Pro |
+| 2026-08-18 | yolov8n | coco128 (smoke — train overlap, not a valid eval) | 0.455 | 0.592 | — | Apple M1 Pro |
+
+First failure-analysis takeaways: small objects hurt most — **traffic light AP 0.21**, truck 0.29, bicycle 0.26 vs train 0.64, bus 0.62. Consistent with the small-object AP gap (AP-small 0.19 vs AP-large 0.54).
 
 ## Roadmap
 
