@@ -4,13 +4,13 @@ A hands-on lab for **validating perception models the way AD teams validate soft
 
 Built as a learning project toward **SiL-style validation** of autonomous-driving stacks.
 
-## Status (honest)
+## Status
 
 - [x] Scaffold: evaluation harness + FPS bench + CARLA client code
-- [x] **Phase 1 — run on my machine**: driving-class evaluation on COCO val2017, results table below (2026-08-18)
-- [ ] **Phase 2 — CARLA closed-loop** (requires Linux + GPU): ego vehicle + camera + live YOLO inference in the simulator
+- [x] **Phase 1**: driving-class evaluation on COCO val2017 — results table below (2026-08-18)
+- [ ] **Phase 2 — CARLA closed-loop**: ego vehicle + camera + live YOLO inference in the simulator
 
-> Phase 2 code lives in [`carla/`](carla/) and is **untested until checked off** — CARLA has no macOS build, so it waits for a Linux/GPU session.
+> Phase 2 code lives in [`carla/`](carla/) and has not been run yet — CARLA has no macOS build; it requires a Linux + GPU machine.
 
 ## Why this shape
 
@@ -33,7 +33,7 @@ make fps     # inference FPS on this machine
 
 ## Results
 
-*(from my runs — raw data in `runs/results.csv`)*
+*(raw data in `runs/results.csv`)*
 
 | Run | Model | Dataset | mAP50-95 (driving classes) | mAP50 | FPS @640 | Hardware |
 |---|---|---|---|---|---|---|
