@@ -8,6 +8,7 @@ Built as a learning project toward **SiL-style validation** of autonomous-drivin
 
 - [x] Scaffold: evaluation harness + FPS bench + CARLA client code
 - [x] **Phase 1**: driving-class evaluation on COCO val2017 — results table below (2026-08-18)
+- [x] **C++ inference node**: same model exported to ONNX, OpenCV DNN in C++, latency vs the Python path (2026-08-18)
 - [ ] **Phase 2 — CARLA closed-loop**: ego vehicle + camera + live YOLO inference in the simulator
 
 > Phase 2 code lives in [`carla/`](carla/) and has not been run yet — CARLA has no macOS build; it requires a Linux + GPU machine.
@@ -42,6 +43,16 @@ make fps     # inference FPS on this machine
 
 First failure-analysis takeaways: small objects hurt most — **traffic light AP 0.21**, truck 0.29, bicycle 0.26 vs train 0.64, bus 0.62. Consistent with the small-object AP gap (AP-small 0.19 vs AP-large 0.54).
 
+**Latency** (yolov8n @ 640, Apple M1 Pro):
+
+| Path | ms/frame |
+|---|---|
+| Python (PyTorch, CPU) | ~128 |
+| **C++ (ONNX + OpenCV DNN, CPU)** | **29.7** |
+| Python (PyTorch, Apple GPU `mps`) | 13.1 |
+
+The C++ number times `net.forward()` only; the Python numbers include pre/post-processing — same order of magnitude, not a strict apples-to-apples. Detection output of the C++ node verified against the reference `bus.jpg` (4 persons + bus).
+
 ## Roadmap
 
 - [ ] Compare yolov8n / yolov8s / yolov8m: accuracy-vs-FPS tradeoff curve
@@ -54,5 +65,16 @@ First failure-analysis takeaways: small objects hurt most — **traffic light AP
 ```
 src/evaluate.py     # ultralytics val restricted to driving classes → runs/results.csv
 src/bench_fps.py    # FPS benchmark (mps/cuda/cpu)
-carla/              # Phase 2: CARLA 0.9.15 client (UNTESTED — Linux+GPU required)
+cpp/detect.cpp      # C++ inference node: ONNX + OpenCV DNN, letterbox + NMS, latency bench
+carla/              # Phase 2: CARLA 0.9.15 client (not yet run — Linux+GPU required)
+```
+
+### C++ node
+
+The Python harness answers "how good is the model"; the C++ node mirrors how the model would run in a deployment path (C++ runtime, no Python dependency):
+
+```bash
+make onnx                                   # export yolov8n.pt -> yolov8n.onnx
+make cpp                                    # cmake + build (brew install opencv cmake)
+./cpp/build/detect yolov8n.onnx <image>.jpg --bench 100
 ```
