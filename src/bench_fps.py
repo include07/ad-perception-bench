@@ -1,6 +1,12 @@
-"""Benchmark inference FPS on this machine (mps / cuda / cpu)."""
+"""Benchmark inference FPS on this machine (mps / cuda / cpu).
+
+Appends each run to runs/fps.csv so plot_tradeoff.py can join latency
+with the mAP results.
+"""
 import argparse
+import csv
 import time
+from pathlib import Path
 
 import numpy as np
 from ultralytics import YOLO
@@ -25,8 +31,20 @@ def main() -> None:
         model(frame, device=args.device, verbose=False)
     elapsed = time.perf_counter() - start
 
+    fps = args.n / elapsed
+    ms = elapsed / args.n * 1000
     print(f"{args.model} @ {args.imgsz}px on {args.device}: "
-          f"{args.n / elapsed:.1f} FPS ({elapsed / args.n * 1000:.1f} ms/frame)")
+          f"{fps:.1f} FPS ({ms:.1f} ms/frame)")
+
+    out = Path("runs/fps.csv")
+    out.parent.mkdir(exist_ok=True)
+    is_new = not out.exists()
+    with out.open("a", newline="") as f:
+        writer = csv.writer(f)
+        if is_new:
+            writer.writerow(["model", "device", "imgsz", "ms_per_frame", "fps"])
+        writer.writerow([args.model, args.device, args.imgsz,
+                         round(ms, 2), round(fps, 2)])
 
 
 if __name__ == "__main__":

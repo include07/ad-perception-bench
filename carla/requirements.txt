@@ -1,5 +1,5 @@
-# Phase 2 only — CARLA server 0.9.15 required (Linux + GPU)
-carla==0.9.15
+# Phase 2 only — CARLA server 0.9.16 required (Linux + GPU)
+carla==0.9.16
 ultralytics>=8.2
 opencv-python
 numpy

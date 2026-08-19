@@ -1,0 +1,2 @@
+model,backend,ms_per_frame,fps,iters
+yolov8n.onnx,opencv-dnn-cpu,29.6629,33.7121,100

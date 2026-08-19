@@ -1,24 +1,26 @@
-"""Phase 2 (UNTESTED — requires a running CARLA 0.9.15 server on Linux + GPU).
+"""Phase 2: closed-loop CARLA run (requires a CARLA server on Linux + GPU).
 
-Spawns an ego vehicle on autopilot, attaches an RGB camera, runs YOLOv8 on
-every frame in synchronous mode, and logs detections to runs/carla_log.csv
-with annotated frames in runs/carla_frames/.
+Spawns an ego vehicle on autopilot plus background traffic, attaches an RGB
+camera, runs YOLOv8 on every frame in synchronous mode, and logs detections
+to runs/carla_log_<weather>.csv with annotated frames in runs/carla_frames/.
 
 Usage (once the CARLA server is running):
-    python drive_and_detect.py --host 127.0.0.1 --frames 600 --weather ClearNoon
+    python drive_and_detect.py --frames 600 --weather ClearNoon
+    python drive_and_detect.py --frames 600 --weather HardRainNoon
+    python drive_and_detect.py --frames 600 --weather ClearNight
 """
 import argparse
 import csv
 import queue
+import random
 from pathlib import Path
 
-import carla  # pip install carla==0.9.15
+import carla  # pip install carla (must match the server version)
 import cv2
 import numpy as np
 from ultralytics import YOLO
 
 OUT_DIR = Path("runs/carla_frames")
-LOG_CSV = Path("runs/carla_log.csv")
 
 
 def to_bgr(image: "carla.Image") -> np.ndarray:
@@ -33,26 +35,50 @@ def main() -> None:
     parser.add_argument("--port", type=int, default=2000)
     parser.add_argument("--frames", type=int, default=600)
     parser.add_argument("--model", default="yolov8n.pt")
+    parser.add_argument("--traffic", type=int, default=30,
+                        help="background vehicles to spawn")
     parser.add_argument("--weather", default="ClearNoon",
                         help="ClearNoon | WetNoon | HardRainNoon | ClearNight ...")
     args = parser.parse_args()
 
     client = carla.Client(args.host, args.port)
-    client.set_timeout(10.0)
+    client.set_timeout(20.0)
     world = client.get_world()
     world.set_weather(getattr(carla.WeatherParameters, args.weather))
 
-    # Synchronous mode so simulation and inference stay in lockstep (SiL-style)
+    # Synchronous mode: simulation, traffic manager, and inference in lockstep.
     settings = world.get_settings()
     settings.synchronous_mode = True
     settings.fixed_delta_seconds = 0.05  # 20 Hz
     world.apply_settings(settings)
+    tm = client.get_trafficmanager()
+    tm.set_synchronous_mode(True)
 
     blueprints = world.get_blueprint_library()
+    spawn_points = world.get_map().get_spawn_points()
+    random.shuffle(spawn_points)
+
+    # Ego vehicle: take the first spawn point that works.
     ego_bp = blueprints.filter("vehicle.tesla.model3")[0]
-    spawn = world.get_map().get_spawn_points()[0]
-    ego = world.spawn_actor(ego_bp, spawn)
-    ego.set_autopilot(True)
+    ego = None
+    for sp in spawn_points:
+        ego = world.try_spawn_actor(ego_bp, sp)
+        if ego is not None:
+            break
+    if ego is None:
+        raise RuntimeError("no free spawn point for the ego vehicle")
+    ego.set_autopilot(True, tm.get_port())
+
+    # Background traffic so the detector has something to detect.
+    vehicle_bps = blueprints.filter("vehicle.*")
+    traffic = []
+    for sp in spawn_points:
+        if len(traffic) >= args.traffic:
+            break
+        actor = world.try_spawn_actor(random.choice(vehicle_bps), sp)
+        if actor is not None:
+            actor.set_autopilot(True, tm.get_port())
+            traffic.append(actor)
 
     cam_bp = blueprints.find("sensor.camera.rgb")
     cam_bp.set_attribute("image_size_x", "1280")
@@ -65,27 +91,32 @@ def main() -> None:
 
     model = YOLO(args.model)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    LOG_CSV.parent.mkdir(exist_ok=True)
+    log_csv = Path(f"runs/carla_log_{args.weather}.csv")
 
     try:
-        with LOG_CSV.open("w", newline="") as f:
+        with log_csv.open("w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["frame", "n_detections", "classes", "weather"])
             for i in range(args.frames):
                 world.tick()
-                image = frames.get(timeout=5.0)
+                image = frames.get(timeout=10.0)
                 bgr = to_bgr(image)
                 result = model(bgr, verbose=False)[0]
                 names = [result.names[int(c)] for c in result.boxes.cls]
                 writer.writerow([i, len(names), "|".join(names), args.weather])
                 if i % 20 == 0:  # save every 20th annotated frame
-                    cv2.imwrite(str(OUT_DIR / f"{i:05d}.jpg"), result.plot())
-        print(f"Done: {args.frames} frames -> {LOG_CSV}, samples in {OUT_DIR}")
+                    cv2.imwrite(str(OUT_DIR / f"{args.weather}_{i:05d}.jpg"),
+                                result.plot())
+        print(f"Done: {args.frames} frames -> {log_csv}, samples in {OUT_DIR}")
     finally:
+        camera.stop()
+        camera.destroy()
+        for actor in traffic:
+            actor.destroy()
+        ego.destroy()
+        tm.set_synchronous_mode(False)
         settings.synchronous_mode = False
         world.apply_settings(settings)
-        camera.destroy()
-        ego.destroy()
 
 
 if __name__ == "__main__":

@@ -66,7 +66,7 @@ The C++ number times `net.forward()` only; the Python numbers include pre/post-p
 src/evaluate.py     # ultralytics val restricted to driving classes → runs/results.csv
 src/bench_fps.py    # FPS benchmark (mps/cuda/cpu)
 cpp/detect.cpp      # C++ inference node: ONNX + OpenCV DNN, letterbox + NMS, latency bench
-carla/              # Phase 2: CARLA 0.9.15 client (not yet run — Linux+GPU required)
+carla/              # Phase 2: CARLA 0.9.16 client (not yet run — Linux+GPU required)
 ```
 
 ### C++ node
