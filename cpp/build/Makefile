@@ -129,6 +129,43 @@ detect/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/build
 .PHONY : detect/fast
 
+#=============================================================================
+# Target rules for targets named analyze_log
+
+# Build rule for target.
+analyze_log: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 analyze_log
+.PHONY : analyze_log
+
+# fast build rule for target.
+analyze_log/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze_log.dir/build.make CMakeFiles/analyze_log.dir/build
+.PHONY : analyze_log/fast
+
+analyze_log.o: analyze_log.cpp.o
+.PHONY : analyze_log.o
+
+# target to build an object file
+analyze_log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze_log.dir/build.make CMakeFiles/analyze_log.dir/analyze_log.cpp.o
+.PHONY : analyze_log.cpp.o
+
+analyze_log.i: analyze_log.cpp.i
+.PHONY : analyze_log.i
+
+# target to preprocess a source file
+analyze_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze_log.dir/build.make CMakeFiles/analyze_log.dir/analyze_log.cpp.i
+.PHONY : analyze_log.cpp.i
+
+analyze_log.s: analyze_log.cpp.s
+.PHONY : analyze_log.s
+
+# target to generate assembly for a file
+analyze_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze_log.dir/build.make CMakeFiles/analyze_log.dir/analyze_log.cpp.s
+.PHONY : analyze_log.cpp.s
+
 detect.o: detect.cpp.o
 .PHONY : detect.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... analyze_log"
 	@echo "... detect"
+	@echo "... analyze_log.o"
+	@echo "... analyze_log.i"
+	@echo "... analyze_log.s"
 	@echo "... detect.o"
 	@echo "... detect.i"
 	@echo "... detect.s"

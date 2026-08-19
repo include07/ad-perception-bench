@@ -78,7 +78,8 @@ CARLA 0.9.16 server (`-RenderOffScreen`, quality Low) on a rented RTX 5070 Ti VM
 src/evaluate.py     # ultralytics val restricted to driving classes → runs/results.csv
 src/bench_fps.py    # FPS benchmark (mps/cuda/cpu)
 cpp/detect.cpp      # C++ inference node: ONNX + OpenCV DNN, letterbox + NMS, latency bench
-carla/              # Phase 2: CARLA 0.9.16 client (not yet run — Linux+GPU required)
+cpp/analyze_log.cpp # pure-STL analyzer for the CARLA campaign CSVs (per-weather aggregation)
+carla/              # Phase 2: CARLA 0.9.16 client + session runbook
 ```
 
 ### C++ node
@@ -89,4 +90,5 @@ The Python harness answers "how good is the model"; the C++ node mirrors how the
 make onnx                                   # export yolov8n.pt -> yolov8n.onnx
 make cpp                                    # cmake + build (brew install opencv cmake)
 ./cpp/build/detect yolov8n.onnx <image>.jpg --bench 100
+./cpp/build/analyze_log runs/carla_log_*.csv   # per-weather campaign summary (standard library only)
 ```

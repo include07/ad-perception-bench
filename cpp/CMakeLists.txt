@@ -12,3 +12,5 @@ find_package(OpenCV REQUIRED)
 add_executable(detect detect.cpp)
 target_link_libraries(detect PRIVATE ${OpenCV_LIBS})
 target_include_directories(detect PRIVATE ${OpenCV_INCLUDE_DIRS})
+
+add_executable(analyze_log analyze_log.cpp)
