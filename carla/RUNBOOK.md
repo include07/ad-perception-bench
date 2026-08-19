@@ -5,6 +5,27 @@ Linux + GPU machine, collect three weather runs, push the results.
 
 All facts below verified Aug 2026 (release URLs, wheel support, flags, prices).
 
+## Option 0 — local Linux laptop with a 4 GB NVIDIA GPU (free, try first)
+
+Below the official minimum (8 GB VRAM) but often workable with tight settings.
+Needs: NVIDIA proprietary driver + Vulkan working, ~30 GB free disk.
+Same steps as sections 1-4 below (skip the rental), with these changes:
+
+```bash
+# server: lowest footprint
+./CarlaUE4.sh -RenderOffScreen -nosound -quality-level=Low
+
+# runs: light town, small camera, YOLO on CPU so CARLA keeps the whole GPU
+python drive_and_detect.py --frames 600 --weather ClearNoon    --town Town02 --width 640 --height 360 --device cpu
+python drive_and_detect.py --frames 600 --weather HardRainNoon --width 640 --height 360 --device cpu
+python drive_and_detect.py --frames 600 --weather ClearNight   --width 640 --height 360 --device cpu
+```
+
+(`--town` only on the first run — it persists. Sync mode means a slow sim is
+fine: the run just takes longer, the data is identical.)
+If the server crashes with an out-of-memory / Vulkan device-lost error, don't
+fight it — fall back to the rented pod below.
+
 ## 0. Rent the machine (~5 min)
 
 **RunPod** (simplest): deploy a Pod — GPU **RTX 3090** (Community, ~$0.22/hr)
@@ -58,7 +79,7 @@ accepts only `Low` or `Epic`. Do NOT pass `-carla-server` (dead 0.8.x flag).
 ```bash
 cd ~ && git clone https://github.com/include07/ad-perception-bench.git
 cd ad-perception-bench
-python3.10 -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv && source .venv/bin/activate   # python 3.10, 3.11 or 3.12 (carla 0.9.16 wheels)
 pip install carla==0.9.16 ultralytics opencv-python-headless
 # client MUST match server version — a mismatch prints an RPC warning and breaks
 ```

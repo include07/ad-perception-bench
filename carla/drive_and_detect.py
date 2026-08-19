@@ -39,11 +39,20 @@ def main() -> None:
                         help="background vehicles to spawn")
     parser.add_argument("--weather", default="ClearNoon",
                         help="ClearNoon | WetNoon | HardRainNoon | ClearNight ...")
+    parser.add_argument("--town", default=None,
+                        help="e.g. Town02 (lighter, good for 4GB GPUs); default: current map")
+    parser.add_argument("--width", type=int, default=1280)
+    parser.add_argument("--height", type=int, default=720)
+    parser.add_argument("--device", default=None,
+                        help="YOLO device: cpu recommended on low-VRAM machines so CARLA keeps the GPU")
     args = parser.parse_args()
 
     client = carla.Client(args.host, args.port)
-    client.set_timeout(20.0)
-    world = client.get_world()
+    client.set_timeout(60.0)
+    if args.town:
+        world = client.load_world(args.town)
+    else:
+        world = client.get_world()
     world.set_weather(getattr(carla.WeatherParameters, args.weather))
 
     # Synchronous mode: simulation, traffic manager, and inference in lockstep.
@@ -81,8 +90,8 @@ def main() -> None:
             traffic.append(actor)
 
     cam_bp = blueprints.find("sensor.camera.rgb")
-    cam_bp.set_attribute("image_size_x", "1280")
-    cam_bp.set_attribute("image_size_y", "720")
+    cam_bp.set_attribute("image_size_x", str(args.width))
+    cam_bp.set_attribute("image_size_y", str(args.height))
     cam_tf = carla.Transform(carla.Location(x=1.5, z=1.7))
     camera = world.spawn_actor(cam_bp, cam_tf, attach_to=ego)
 
@@ -101,7 +110,7 @@ def main() -> None:
                 world.tick()
                 image = frames.get(timeout=10.0)
                 bgr = to_bgr(image)
-                result = model(bgr, verbose=False)[0]
+                result = model(bgr, device=args.device, verbose=False)[0]
                 names = [result.names[int(c)] for c in result.boxes.cls]
                 writer.writerow([i, len(names), "|".join(names), args.weather])
                 if i % 20 == 0:  # save every 20th annotated frame
