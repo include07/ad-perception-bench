@@ -1,0 +1,601 @@
+frame,n_detections,classes,weather
+0,1,bench,ClearNight
+1,2,bench|traffic light,ClearNight
+2,2,traffic light|bench,ClearNight
+3,2,traffic light|bench,ClearNight
+4,2,bench|traffic light,ClearNight
+5,1,traffic light,ClearNight
+6,2,traffic light|bench,ClearNight
+7,2,bench|traffic light,ClearNight
+8,3,bench|traffic light|bench,ClearNight
+9,2,bench|traffic light,ClearNight
+10,2,bench|traffic light,ClearNight
+11,2,bench|traffic light,ClearNight
+12,3,bench|traffic light|traffic light,ClearNight
+13,3,traffic light|bench|traffic light,ClearNight
+14,2,bench|traffic light,ClearNight
+15,3,traffic light|bench|traffic light,ClearNight
+16,1,traffic light,ClearNight
+17,1,bench,ClearNight
+18,3,traffic light|traffic light|bench,ClearNight
+19,2,traffic light|bench,ClearNight
+20,2,bench|traffic light,ClearNight
+21,2,traffic light|bench,ClearNight
+22,2,traffic light|traffic light,ClearNight
+23,2,traffic light|bench,ClearNight
+24,2,traffic light|traffic light,ClearNight
+25,2,traffic light|traffic light,ClearNight
+26,2,traffic light|bench,ClearNight
+27,1,traffic light,ClearNight
+28,1,traffic light,ClearNight
+29,0,,ClearNight
+30,2,traffic light|traffic light,ClearNight
+31,1,traffic light,ClearNight
+32,1,traffic light,ClearNight
+33,1,traffic light,ClearNight
+34,0,,ClearNight
+35,1,traffic light,ClearNight
+36,1,traffic light,ClearNight
+37,2,traffic light|traffic light,ClearNight
+38,1,traffic light,ClearNight
+39,1,traffic light,ClearNight
+40,3,bench|traffic light|traffic light,ClearNight
+41,1,traffic light,ClearNight
+42,1,traffic light,ClearNight
+43,1,traffic light,ClearNight
+44,2,traffic light|traffic light,ClearNight
+45,1,traffic light,ClearNight
+46,0,,ClearNight
+47,1,person,ClearNight
+48,0,,ClearNight
+49,0,,ClearNight
+50,2,traffic light|traffic light,ClearNight
+51,1,traffic light,ClearNight
+52,0,,ClearNight
+53,0,,ClearNight
+54,0,,ClearNight
+55,0,,ClearNight
+56,0,,ClearNight
+57,1,traffic light,ClearNight
+58,0,,ClearNight
+59,1,traffic light,ClearNight
+60,2,traffic light|traffic light,ClearNight
+61,2,traffic light|traffic light,ClearNight
+62,1,traffic light,ClearNight
+63,0,,ClearNight
+64,2,traffic light|traffic light,ClearNight
+65,2,traffic light|traffic light,ClearNight
+66,3,traffic light|traffic light|traffic light,ClearNight
+67,2,traffic light|traffic light,ClearNight
+68,2,traffic light|traffic light,ClearNight
+69,3,traffic light|traffic light|traffic light,ClearNight
+70,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+71,2,traffic light|traffic light,ClearNight
+72,3,traffic light|traffic light|traffic light,ClearNight
+73,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+74,3,traffic light|traffic light|traffic light,ClearNight
+75,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+76,3,traffic light|traffic light|traffic light,ClearNight
+77,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+78,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+79,3,traffic light|traffic light|traffic light,ClearNight
+80,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+81,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+82,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+83,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+84,3,traffic light|traffic light|traffic light,ClearNight
+85,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+86,3,traffic light|traffic light|traffic light,ClearNight
+87,2,traffic light|traffic light,ClearNight
+88,1,traffic light,ClearNight
+89,2,traffic light|traffic light,ClearNight
+90,1,traffic light,ClearNight
+91,3,traffic light|traffic light|traffic light,ClearNight
+92,2,traffic light|traffic light,ClearNight
+93,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+94,3,traffic light|traffic light|traffic light,ClearNight
+95,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+96,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+97,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+98,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+99,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+100,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+101,6,traffic light|traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+102,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+103,3,traffic light|traffic light|traffic light,ClearNight
+104,3,traffic light|traffic light|traffic light,ClearNight
+105,3,traffic light|traffic light|traffic light,ClearNight
+106,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+107,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+108,2,traffic light|traffic light,ClearNight
+109,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+110,2,traffic light|traffic light,ClearNight
+111,3,traffic light|traffic light|traffic light,ClearNight
+112,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+113,3,traffic light|traffic light|traffic light,ClearNight
+114,4,traffic light|traffic light|car|traffic light,ClearNight
+115,6,traffic light|traffic light|car|traffic light|traffic light|traffic light,ClearNight
+116,3,traffic light|traffic light|traffic light,ClearNight
+117,3,traffic light|traffic light|traffic light,ClearNight
+118,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+119,5,traffic light|traffic light|traffic light|traffic light|car,ClearNight
+120,3,traffic light|traffic light|traffic light,ClearNight
+121,3,traffic light|traffic light|traffic light,ClearNight
+122,3,traffic light|traffic light|traffic light,ClearNight
+123,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+124,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+125,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+126,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+127,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+128,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+129,2,traffic light|traffic light,ClearNight
+130,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+131,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+132,2,traffic light|traffic light,ClearNight
+133,2,traffic light|traffic light,ClearNight
+134,2,traffic light|traffic light,ClearNight
+135,3,traffic light|traffic light|traffic light,ClearNight
+136,6,traffic light|traffic light|traffic light|traffic light|umbrella|traffic light,ClearNight
+137,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+138,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+139,3,traffic light|traffic light|traffic light,ClearNight
+140,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+141,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+142,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+143,5,traffic light|traffic light|person|traffic light|traffic light,ClearNight
+144,4,traffic light|traffic light|person|traffic light,ClearNight
+145,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+146,4,traffic light|traffic light|traffic light|stop sign,ClearNight
+147,6,traffic light|traffic light|traffic light|traffic light|stop sign|traffic light,ClearNight
+148,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+149,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+150,3,traffic light|traffic light|traffic light,ClearNight
+151,6,traffic light|traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+152,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+153,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+154,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+155,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+156,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+157,3,traffic light|traffic light|traffic light,ClearNight
+158,1,traffic light,ClearNight
+159,1,traffic light,ClearNight
+160,1,traffic light,ClearNight
+161,0,,ClearNight
+162,1,traffic light,ClearNight
+163,1,traffic light,ClearNight
+164,2,traffic light|traffic light,ClearNight
+165,2,traffic light|person,ClearNight
+166,3,traffic light|traffic light|car,ClearNight
+167,1,traffic light,ClearNight
+168,0,,ClearNight
+169,1,traffic light,ClearNight
+170,1,traffic light,ClearNight
+171,1,traffic light,ClearNight
+172,1,traffic light,ClearNight
+173,1,person,ClearNight
+174,1,traffic light,ClearNight
+175,1,traffic light,ClearNight
+176,2,traffic light|person,ClearNight
+177,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+178,3,traffic light|person|traffic light,ClearNight
+179,2,traffic light|person,ClearNight
+180,3,traffic light|traffic light|person,ClearNight
+181,4,traffic light|person|car|traffic light,ClearNight
+182,0,,ClearNight
+183,1,traffic light,ClearNight
+184,2,traffic light|person,ClearNight
+185,0,,ClearNight
+186,0,,ClearNight
+187,1,traffic light,ClearNight
+188,2,person|car,ClearNight
+189,2,person|traffic light,ClearNight
+190,0,,ClearNight
+191,0,,ClearNight
+192,1,person,ClearNight
+193,0,,ClearNight
+194,1,person,ClearNight
+195,2,person|person,ClearNight
+196,1,person,ClearNight
+197,1,person,ClearNight
+198,0,,ClearNight
+199,1,person,ClearNight
+200,0,,ClearNight
+201,0,,ClearNight
+202,0,,ClearNight
+203,2,train|train,ClearNight
+204,0,,ClearNight
+205,0,,ClearNight
+206,1,car,ClearNight
+207,0,,ClearNight
+208,0,,ClearNight
+209,0,,ClearNight
+210,0,,ClearNight
+211,1,car,ClearNight
+212,2,car|car,ClearNight
+213,0,,ClearNight
+214,3,car|car|car,ClearNight
+215,1,car,ClearNight
+216,0,,ClearNight
+217,2,car|person,ClearNight
+218,1,car,ClearNight
+219,1,car,ClearNight
+220,1,car,ClearNight
+221,0,,ClearNight
+222,1,car,ClearNight
+223,1,car,ClearNight
+224,2,traffic light|traffic light,ClearNight
+225,2,car|traffic light,ClearNight
+226,2,car|traffic light,ClearNight
+227,3,car|traffic light|traffic light,ClearNight
+228,2,traffic light|car,ClearNight
+229,1,traffic light,ClearNight
+230,3,traffic light|car|fire hydrant,ClearNight
+231,2,car|car,ClearNight
+232,0,,ClearNight
+233,0,,ClearNight
+234,2,car|traffic light,ClearNight
+235,2,car|traffic light,ClearNight
+236,1,car,ClearNight
+237,1,car,ClearNight
+238,3,car|traffic light|car,ClearNight
+239,2,car|car,ClearNight
+240,2,car|traffic light,ClearNight
+241,2,traffic light|car,ClearNight
+242,1,car,ClearNight
+243,2,car|traffic light,ClearNight
+244,3,car|traffic light|traffic light,ClearNight
+245,0,,ClearNight
+246,4,car|train|person|traffic light,ClearNight
+247,2,car|person,ClearNight
+248,4,person|car|car|traffic light,ClearNight
+249,3,car|traffic light|traffic light,ClearNight
+250,5,car|traffic light|person|traffic light|traffic light,ClearNight
+251,4,car|traffic light|traffic light|traffic light,ClearNight
+252,3,car|truck|traffic light,ClearNight
+253,4,car|traffic light|truck|person,ClearNight
+254,2,car|traffic light,ClearNight
+255,3,car|traffic light|traffic light,ClearNight
+256,4,car|traffic light|person|traffic light,ClearNight
+257,5,car|person|traffic light|person|person,ClearNight
+258,2,car|traffic light,ClearNight
+259,4,car|traffic light|traffic light|person,ClearNight
+260,4,car|traffic light|traffic light|person,ClearNight
+261,3,car|traffic light|traffic light,ClearNight
+262,3,car|traffic light|person,ClearNight
+263,4,car|traffic light|truck|person,ClearNight
+264,4,car|traffic light|person|person,ClearNight
+265,5,car|motorcycle|traffic light|person|person,ClearNight
+266,5,motorcycle|traffic light|traffic light|car|traffic light,ClearNight
+267,2,traffic light|traffic light,ClearNight
+268,5,car|traffic light|car|traffic light|traffic light,ClearNight
+269,3,car|traffic light|traffic light,ClearNight
+270,4,car|traffic light|traffic light|traffic light,ClearNight
+271,2,car|traffic light,ClearNight
+272,4,car|traffic light|traffic light|traffic light,ClearNight
+273,5,car|traffic light|traffic light|traffic light|traffic light,ClearNight
+274,3,traffic light|traffic light|traffic light,ClearNight
+275,4,car|traffic light|traffic light|traffic light,ClearNight
+276,2,traffic light|traffic light,ClearNight
+277,5,traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+278,4,traffic light|traffic light|traffic light|traffic light,ClearNight
+279,5,traffic light|traffic light|traffic light|person|traffic light,ClearNight
+280,6,traffic light|traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+281,3,traffic light|traffic light|traffic light,ClearNight
+282,3,traffic light|traffic light|traffic light,ClearNight
+283,3,traffic light|traffic light|traffic light,ClearNight
+284,2,traffic light|person,ClearNight
+285,1,traffic light,ClearNight
+286,2,traffic light|traffic light,ClearNight
+287,0,,ClearNight
+288,1,traffic light,ClearNight
+289,0,,ClearNight
+290,0,,ClearNight
+291,0,,ClearNight
+292,0,,ClearNight
+293,1,traffic light,ClearNight
+294,0,,ClearNight
+295,1,traffic light,ClearNight
+296,2,traffic light|traffic light,ClearNight
+297,0,,ClearNight
+298,1,traffic light,ClearNight
+299,1,traffic light,ClearNight
+300,1,traffic light,ClearNight
+301,0,,ClearNight
+302,2,traffic light|traffic light,ClearNight
+303,1,traffic light,ClearNight
+304,2,traffic light|traffic light,ClearNight
+305,0,,ClearNight
+306,0,,ClearNight
+307,1,traffic light,ClearNight
+308,2,traffic light|traffic light,ClearNight
+309,1,traffic light,ClearNight
+310,2,traffic light|person,ClearNight
+311,1,traffic light,ClearNight
+312,1,traffic light,ClearNight
+313,1,traffic light,ClearNight
+314,0,,ClearNight
+315,0,,ClearNight
+316,1,traffic light,ClearNight
+317,0,,ClearNight
+318,2,traffic light|traffic light,ClearNight
+319,2,traffic light|bench,ClearNight
+320,2,bench|traffic light,ClearNight
+321,3,bench|bench|traffic light,ClearNight
+322,3,bench|traffic light|traffic light,ClearNight
+323,3,traffic light|bench|bench,ClearNight
+324,4,bench|person|traffic light|traffic light,ClearNight
+325,3,bench|traffic light|traffic light,ClearNight
+326,1,bench,ClearNight
+327,1,traffic light,ClearNight
+328,1,traffic light,ClearNight
+329,1,traffic light,ClearNight
+330,4,car|bench|traffic light|car,ClearNight
+331,4,bench|traffic light|car|car,ClearNight
+332,4,bench|car|car|traffic light,ClearNight
+333,6,bench|car|traffic light|car|traffic light|traffic light,ClearNight
+334,7,bench|traffic light|traffic light|bench|car|car|traffic light,ClearNight
+335,3,bench|traffic light|car,ClearNight
+336,2,bench|car,ClearNight
+337,5,traffic light|car|traffic light|traffic light|car,ClearNight
+338,1,traffic light,ClearNight
+339,3,traffic light|traffic light|car,ClearNight
+340,1,traffic light,ClearNight
+341,3,traffic light|person|car,ClearNight
+342,3,traffic light|car|person,ClearNight
+343,2,traffic light|car,ClearNight
+344,1,person,ClearNight
+345,4,traffic light|person|person|person,ClearNight
+346,3,traffic light|traffic light|traffic light,ClearNight
+347,2,traffic light|car,ClearNight
+348,3,car|traffic light|traffic light,ClearNight
+349,1,traffic light,ClearNight
+350,2,car|car,ClearNight
+351,3,car|car|traffic light,ClearNight
+352,1,car,ClearNight
+353,1,car,ClearNight
+354,2,car|person,ClearNight
+355,3,traffic light|traffic light|car,ClearNight
+356,1,car,ClearNight
+357,2,traffic light|person,ClearNight
+358,0,,ClearNight
+359,2,car|traffic light,ClearNight
+360,3,traffic light|car|traffic light,ClearNight
+361,0,,ClearNight
+362,1,traffic light,ClearNight
+363,6,car|car|traffic light|traffic light|person|traffic light,ClearNight
+364,3,car|car|traffic light,ClearNight
+365,2,car|car,ClearNight
+366,3,car|car|traffic light,ClearNight
+367,3,car|car|traffic light,ClearNight
+368,2,traffic light|car,ClearNight
+369,4,car|car|traffic light|traffic light,ClearNight
+370,5,car|car|traffic light|traffic light|traffic light,ClearNight
+371,4,car|car|traffic light|person,ClearNight
+372,2,car|car,ClearNight
+373,5,car|car|traffic light|traffic light|traffic light,ClearNight
+374,3,car|car|traffic light,ClearNight
+375,3,car|car|traffic light,ClearNight
+376,2,car|car,ClearNight
+377,2,car|car,ClearNight
+378,3,car|car|person,ClearNight
+379,3,car|car|traffic light,ClearNight
+380,3,car|car|traffic light,ClearNight
+381,3,car|car|traffic light,ClearNight
+382,3,car|car|person,ClearNight
+383,4,car|car|person|potted plant,ClearNight
+384,4,car|car|person|traffic light,ClearNight
+385,4,car|person|car|traffic light,ClearNight
+386,5,car|person|car|traffic light|traffic light,ClearNight
+387,7,car|person|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+388,2,car|car,ClearNight
+389,5,car|car|person|traffic light|traffic light,ClearNight
+390,2,car|car,ClearNight
+391,5,car|car|traffic light|traffic light|traffic light,ClearNight
+392,2,car|car,ClearNight
+393,4,car|car|traffic light|traffic light,ClearNight
+394,2,car|car,ClearNight
+395,3,car|car|traffic light,ClearNight
+396,2,car|car,ClearNight
+397,3,car|car|traffic light,ClearNight
+398,2,car|car,ClearNight
+399,2,car|car,ClearNight
+400,3,car|car|traffic light,ClearNight
+401,3,car|traffic light|motorcycle,ClearNight
+402,3,car|traffic light|car,ClearNight
+403,5,car|car|traffic light|traffic light|traffic light,ClearNight
+404,5,car|car|traffic light|traffic light|traffic light,ClearNight
+405,6,car|car|traffic light|person|traffic light|traffic light,ClearNight
+406,4,car|car|traffic light|traffic light,ClearNight
+407,5,car|car|traffic light|traffic light|traffic light,ClearNight
+408,6,car|traffic light|traffic light|traffic light|car|traffic light,ClearNight
+409,4,car|car|traffic light|traffic light,ClearNight
+410,5,car|car|traffic light|traffic light|traffic light,ClearNight
+411,6,car|traffic light|traffic light|car|traffic light|person,ClearNight
+412,7,car|traffic light|traffic light|traffic light|car|traffic light|traffic light,ClearNight
+413,6,car|traffic light|traffic light|traffic light|car|traffic light,ClearNight
+414,7,car|car|traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+415,8,car|car|traffic light|traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+416,7,car|car|traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+417,6,car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+418,4,car|traffic light|traffic light|car,ClearNight
+419,6,car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+420,7,car|car|traffic light|traffic light|traffic light|traffic light|truck,ClearNight
+421,6,car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+422,6,car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+423,5,car|traffic light|traffic light|car|traffic light,ClearNight
+424,5,car|car|traffic light|traffic light|traffic light,ClearNight
+425,4,car|car|traffic light|traffic light,ClearNight
+426,6,car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+427,5,car|car|traffic light|traffic light|traffic light,ClearNight
+428,5,car|car|traffic light|traffic light|traffic light,ClearNight
+429,5,car|car|traffic light|traffic light|traffic light,ClearNight
+430,6,car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+431,5,car|car|traffic light|traffic light|traffic light,ClearNight
+432,4,car|car|traffic light|traffic light,ClearNight
+433,5,car|car|traffic light|traffic light|traffic light,ClearNight
+434,5,car|traffic light|car|traffic light|traffic light,ClearNight
+435,5,car|car|traffic light|traffic light|traffic light,ClearNight
+436,3,car|car|traffic light,ClearNight
+437,4,car|car|traffic light|traffic light,ClearNight
+438,4,car|car|traffic light|traffic light,ClearNight
+439,4,car|car|traffic light|traffic light,ClearNight
+440,5,car|car|traffic light|traffic light|car,ClearNight
+441,6,car|car|traffic light|traffic light|car|traffic light,ClearNight
+442,5,car|car|traffic light|traffic light|traffic light,ClearNight
+443,5,car|traffic light|traffic light|truck|car,ClearNight
+444,3,car|traffic light|car,ClearNight
+445,4,car|car|traffic light|traffic light,ClearNight
+446,4,car|traffic light|car|traffic light,ClearNight
+447,5,car|traffic light|car|traffic light|traffic light,ClearNight
+448,4,car|traffic light|car|truck,ClearNight
+449,4,car|traffic light|traffic light|truck,ClearNight
+450,6,car|traffic light|car|car|car|truck,ClearNight
+451,4,car|traffic light|person|car,ClearNight
+452,3,car|traffic light|traffic light,ClearNight
+453,6,car|traffic light|car|traffic light|clock|car,ClearNight
+454,4,traffic light|car|car|car,ClearNight
+455,5,car|traffic light|car|car|traffic light,ClearNight
+456,7,car|traffic light|traffic light|traffic light|car|car|traffic light,ClearNight
+457,4,car|traffic light|traffic light|traffic light,ClearNight
+458,1,car,ClearNight
+459,5,car|traffic light|traffic light|car|traffic light,ClearNight
+460,5,car|traffic light|car|traffic light|traffic light,ClearNight
+461,4,traffic light|car|traffic light|car,ClearNight
+462,4,car|traffic light|traffic light|traffic light,ClearNight
+463,5,car|car|traffic light|traffic light|traffic light,ClearNight
+464,5,car|traffic light|traffic light|traffic light|traffic light,ClearNight
+465,2,car|traffic light,ClearNight
+466,4,car|traffic light|traffic light|car,ClearNight
+467,3,car|traffic light|clock,ClearNight
+468,3,car|clock|traffic light,ClearNight
+469,4,car|traffic light|car|clock,ClearNight
+470,5,car|traffic light|traffic light|car|traffic light,ClearNight
+471,1,car,ClearNight
+472,3,car|traffic light|car,ClearNight
+473,1,car,ClearNight
+474,4,car|traffic light|car|truck,ClearNight
+475,3,car|traffic light|car,ClearNight
+476,4,car|traffic light|traffic light|traffic light,ClearNight
+477,4,car|traffic light|traffic light|car,ClearNight
+478,4,car|car|traffic light|traffic light,ClearNight
+479,2,car|traffic light,ClearNight
+480,11,car|truck|traffic light|car|traffic light|traffic light|traffic light|traffic light|car|car|traffic light,ClearNight
+481,4,car|car|truck|car,ClearNight
+482,6,car|car|traffic light|traffic light|traffic light|car,ClearNight
+483,5,car|traffic light|traffic light|traffic light|car,ClearNight
+484,8,car|traffic light|traffic light|traffic light|car|traffic light|car|traffic light,ClearNight
+485,7,car|traffic light|traffic light|car|truck|car|car,ClearNight
+486,7,car|car|traffic light|traffic light|traffic light|traffic light|car,ClearNight
+487,8,car|traffic light|car|car|car|truck|traffic light|traffic light,ClearNight
+488,5,car|traffic light|car|traffic light|traffic light,ClearNight
+489,7,car|traffic light|traffic light|traffic light|car|car|truck,ClearNight
+490,7,car|car|traffic light|truck|traffic light|traffic light|traffic light,ClearNight
+491,8,car|traffic light|car|truck|traffic light|traffic light|car|traffic light,ClearNight
+492,8,car|car|traffic light|traffic light|traffic light|car|traffic light|traffic light,ClearNight
+493,7,car|car|traffic light|traffic light|traffic light|traffic light|car,ClearNight
+494,8,car|car|car|car|traffic light|traffic light|traffic light|truck,ClearNight
+495,9,car|truck|traffic light|car|traffic light|traffic light|traffic light|car|traffic light,ClearNight
+496,9,car|truck|traffic light|traffic light|traffic light|car|car|traffic light|car,ClearNight
+497,7,car|car|truck|traffic light|traffic light|car|car,ClearNight
+498,9,car|car|car|car|truck|traffic light|traffic light|car|traffic light,ClearNight
+499,6,car|truck|car|car|traffic light|traffic light,ClearNight
+500,6,car|truck|car|traffic light|car|traffic light,ClearNight
+501,12,car|car|car|truck|traffic light|traffic light|person|traffic light|traffic light|traffic light|traffic light|traffic light,ClearNight
+502,9,car|car|truck|car|traffic light|person|traffic light|traffic light|traffic light,ClearNight
+503,10,car|traffic light|traffic light|traffic light|car|car|truck|car|traffic light|car,ClearNight
+504,11,car|truck|traffic light|traffic light|car|traffic light|person|car|traffic light|car|car,ClearNight
+505,7,car|car|traffic light|traffic light|car|truck|traffic light,ClearNight
+506,8,car|car|traffic light|traffic light|car|traffic light|car|truck,ClearNight
+507,9,car|car|car|traffic light|traffic light|car|car|traffic light|train,ClearNight
+508,8,car|traffic light|car|car|train|traffic light|car|traffic light,ClearNight
+509,11,car|traffic light|car|traffic light|traffic light|traffic light|train|car|traffic light|car|traffic light,ClearNight
+510,8,car|traffic light|car|traffic light|car|train|traffic light|traffic light,ClearNight
+511,8,car|car|traffic light|traffic light|traffic light|traffic light|car|train,ClearNight
+512,10,car|car|traffic light|traffic light|car|traffic light|traffic light|car|traffic light|car,ClearNight
+513,9,car|traffic light|car|traffic light|car|car|traffic light|traffic light|traffic light,ClearNight
+514,8,car|car|traffic light|traffic light|traffic light|car|traffic light|traffic light,ClearNight
+515,8,car|car|traffic light|traffic light|traffic light|traffic light|truck|car,ClearNight
+516,9,car|car|traffic light|traffic light|traffic light|car|car|traffic light|traffic light,ClearNight
+517,7,car|traffic light|car|car|traffic light|traffic light|car,ClearNight
+518,6,car|traffic light|traffic light|car|car|car,ClearNight
+519,5,car|car|traffic light|traffic light|car,ClearNight
+520,5,car|car|traffic light|traffic light|car,ClearNight
+521,5,car|car|traffic light|traffic light|traffic light,ClearNight
+522,6,car|car|traffic light|traffic light|car|traffic light,ClearNight
+523,7,car|car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+524,7,car|car|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+525,7,car|car|traffic light|car|traffic light|traffic light|traffic light,ClearNight
+526,8,car|car|traffic light|traffic light|car|traffic light|person|traffic light,ClearNight
+527,6,car|car|traffic light|truck|traffic light|traffic light,ClearNight
+528,7,car|truck|car|traffic light|traffic light|traffic light|person,ClearNight
+529,6,car|truck|car|traffic light|traffic light|traffic light,ClearNight
+530,7,car|truck|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+531,6,car|car|truck|traffic light|traffic light|traffic light,ClearNight
+532,7,car|truck|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+533,6,truck|car|car|traffic light|traffic light|traffic light,ClearNight
+534,6,truck|traffic light|car|traffic light|traffic light|traffic light,ClearNight
+535,5,truck|traffic light|car|traffic light|traffic light,ClearNight
+536,5,truck|traffic light|car|traffic light|traffic light,ClearNight
+537,5,truck|person|traffic light|traffic light|car,ClearNight
+538,5,truck|traffic light|car|traffic light|traffic light,ClearNight
+539,5,truck|traffic light|car|traffic light|traffic light,ClearNight
+540,5,truck|traffic light|traffic light|person|traffic light,ClearNight
+541,4,traffic light|truck|traffic light|traffic light,ClearNight
+542,4,truck|traffic light|traffic light|traffic light,ClearNight
+543,4,truck|traffic light|traffic light|traffic light,ClearNight
+544,3,truck|traffic light|traffic light,ClearNight
+545,6,truck|traffic light|traffic light|car|person|traffic light,ClearNight
+546,5,truck|traffic light|car|traffic light|traffic light,ClearNight
+547,5,truck|traffic light|car|traffic light|traffic light,ClearNight
+548,6,truck|traffic light|traffic light|car|car|traffic light,ClearNight
+549,6,truck|traffic light|traffic light|traffic light|car|person,ClearNight
+550,3,truck|traffic light|traffic light,ClearNight
+551,4,truck|traffic light|traffic light|traffic light,ClearNight
+552,2,truck|traffic light,ClearNight
+553,3,truck|traffic light|traffic light,ClearNight
+554,2,truck|traffic light,ClearNight
+555,3,truck|traffic light|traffic light,ClearNight
+556,3,truck|traffic light|traffic light,ClearNight
+557,3,truck|car|traffic light,ClearNight
+558,4,truck|car|traffic light|traffic light,ClearNight
+559,4,truck|car|traffic light|traffic light,ClearNight
+560,5,truck|car|traffic light|traffic light|traffic light,ClearNight
+561,5,truck|car|traffic light|person|bus,ClearNight
+562,3,truck|car|traffic light,ClearNight
+563,6,truck|car|traffic light|traffic light|traffic light|traffic light,ClearNight
+564,4,truck|car|traffic light|traffic light,ClearNight
+565,4,truck|car|traffic light|traffic light,ClearNight
+566,4,truck|car|traffic light|traffic light,ClearNight
+567,5,truck|car|traffic light|traffic light|traffic light,ClearNight
+568,4,truck|car|traffic light|traffic light,ClearNight
+569,4,truck|car|traffic light|traffic light,ClearNight
+570,4,truck|car|traffic light|traffic light,ClearNight
+571,4,truck|car|traffic light|traffic light,ClearNight
+572,5,truck|car|traffic light|traffic light|traffic light,ClearNight
+573,5,car|truck|traffic light|traffic light|traffic light,ClearNight
+574,7,truck|car|traffic light|traffic light|traffic light|person|traffic light,ClearNight
+575,6,truck|car|traffic light|car|traffic light|traffic light,ClearNight
+576,5,car|truck|traffic light|traffic light|traffic light,ClearNight
+577,6,car|truck|traffic light|traffic light|traffic light|traffic light,ClearNight
+578,5,car|truck|traffic light|traffic light|traffic light,ClearNight
+579,5,car|truck|traffic light|traffic light|traffic light,ClearNight
+580,4,car|truck|traffic light|traffic light,ClearNight
+581,4,truck|car|traffic light|traffic light,ClearNight
+582,5,car|traffic light|truck|traffic light|traffic light,ClearNight
+583,6,car|traffic light|truck|traffic light|traffic light|car,ClearNight
+584,5,car|truck|traffic light|traffic light|traffic light,ClearNight
+585,6,car|traffic light|truck|car|traffic light|traffic light,ClearNight
+586,5,car|traffic light|truck|traffic light|traffic light,ClearNight
+587,6,car|truck|traffic light|car|traffic light|traffic light,ClearNight
+588,6,car|traffic light|car|truck|traffic light|traffic light,ClearNight
+589,4,car|traffic light|car|traffic light,ClearNight
+590,6,car|traffic light|truck|car|traffic light|traffic light,ClearNight
+591,6,car|traffic light|car|traffic light|traffic light|traffic light,ClearNight
+592,4,car|traffic light|car|traffic light,ClearNight
+593,5,car|traffic light|car|traffic light|traffic light,ClearNight
+594,4,car|car|traffic light|traffic light,ClearNight
+595,4,car|traffic light|car|traffic light,ClearNight
+596,3,car|traffic light|traffic light,ClearNight
+597,4,car|traffic light|traffic light|traffic light,ClearNight
+598,5,car|traffic light|car|traffic light|traffic light,ClearNight
+599,5,car|person|traffic light|car|traffic light,ClearNight

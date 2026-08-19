@@ -1,0 +1,601 @@
+frame,n_detections,classes,weather
+0,0,,HardRainNoon
+1,1,traffic light,HardRainNoon
+2,2,traffic light|traffic light,HardRainNoon
+3,2,traffic light|traffic light,HardRainNoon
+4,1,traffic light,HardRainNoon
+5,0,,HardRainNoon
+6,0,,HardRainNoon
+7,0,,HardRainNoon
+8,0,,HardRainNoon
+9,1,clock,HardRainNoon
+10,0,,HardRainNoon
+11,1,traffic light,HardRainNoon
+12,0,,HardRainNoon
+13,1,traffic light,HardRainNoon
+14,1,traffic light,HardRainNoon
+15,1,traffic light,HardRainNoon
+16,0,,HardRainNoon
+17,1,bench,HardRainNoon
+18,0,,HardRainNoon
+19,0,,HardRainNoon
+20,1,bench,HardRainNoon
+21,4,traffic light|traffic light|traffic light|bench,HardRainNoon
+22,2,bench|traffic light,HardRainNoon
+23,3,bench|traffic light|traffic light,HardRainNoon
+24,1,bench,HardRainNoon
+25,1,bench,HardRainNoon
+26,1,traffic light,HardRainNoon
+27,0,,HardRainNoon
+28,2,traffic light|person,HardRainNoon
+29,1,traffic light,HardRainNoon
+30,1,traffic light,HardRainNoon
+31,0,,HardRainNoon
+32,1,traffic light,HardRainNoon
+33,1,traffic light,HardRainNoon
+34,2,traffic light|traffic light,HardRainNoon
+35,1,person,HardRainNoon
+36,2,traffic light|traffic light,HardRainNoon
+37,0,,HardRainNoon
+38,0,,HardRainNoon
+39,1,traffic light,HardRainNoon
+40,1,traffic light,HardRainNoon
+41,1,traffic light,HardRainNoon
+42,1,traffic light,HardRainNoon
+43,1,traffic light,HardRainNoon
+44,1,traffic light,HardRainNoon
+45,1,traffic light,HardRainNoon
+46,2,traffic light|person,HardRainNoon
+47,4,bus|traffic light|person|traffic light,HardRainNoon
+48,2,bus|person,HardRainNoon
+49,2,clock|bus,HardRainNoon
+50,2,traffic light|person,HardRainNoon
+51,2,traffic light|bus,HardRainNoon
+52,2,traffic light|traffic light,HardRainNoon
+53,3,traffic light|bus|person,HardRainNoon
+54,2,bench|traffic light,HardRainNoon
+55,0,,HardRainNoon
+56,0,,HardRainNoon
+57,0,,HardRainNoon
+58,0,,HardRainNoon
+59,0,,HardRainNoon
+60,0,,HardRainNoon
+61,1,car,HardRainNoon
+62,0,,HardRainNoon
+63,1,car,HardRainNoon
+64,1,car,HardRainNoon
+65,1,car,HardRainNoon
+66,1,car,HardRainNoon
+67,1,car,HardRainNoon
+68,1,car,HardRainNoon
+69,1,car,HardRainNoon
+70,1,car,HardRainNoon
+71,3,car|traffic light|traffic light,HardRainNoon
+72,2,potted plant|car,HardRainNoon
+73,1,car,HardRainNoon
+74,1,person,HardRainNoon
+75,0,,HardRainNoon
+76,0,,HardRainNoon
+77,0,,HardRainNoon
+78,1,car,HardRainNoon
+79,1,car,HardRainNoon
+80,2,car|traffic light,HardRainNoon
+81,1,car,HardRainNoon
+82,1,car,HardRainNoon
+83,4,car|car|person|car,HardRainNoon
+84,1,car,HardRainNoon
+85,1,car,HardRainNoon
+86,2,person|car,HardRainNoon
+87,3,car|car|car,HardRainNoon
+88,3,car|car|car,HardRainNoon
+89,3,car|car|bench,HardRainNoon
+90,3,car|car|car,HardRainNoon
+91,4,car|car|person|car,HardRainNoon
+92,2,car|car,HardRainNoon
+93,2,car|car,HardRainNoon
+94,2,car|car,HardRainNoon
+95,3,car|car|car,HardRainNoon
+96,1,car,HardRainNoon
+97,1,car,HardRainNoon
+98,2,car|bench,HardRainNoon
+99,2,car|car,HardRainNoon
+100,2,car|car,HardRainNoon
+101,1,car,HardRainNoon
+102,1,car,HardRainNoon
+103,1,car,HardRainNoon
+104,0,,HardRainNoon
+105,0,,HardRainNoon
+106,1,car,HardRainNoon
+107,0,,HardRainNoon
+108,0,,HardRainNoon
+109,0,,HardRainNoon
+110,0,,HardRainNoon
+111,0,,HardRainNoon
+112,0,,HardRainNoon
+113,0,,HardRainNoon
+114,0,,HardRainNoon
+115,0,,HardRainNoon
+116,0,,HardRainNoon
+117,0,,HardRainNoon
+118,0,,HardRainNoon
+119,0,,HardRainNoon
+120,0,,HardRainNoon
+121,1,person,HardRainNoon
+122,1,person,HardRainNoon
+123,1,person,HardRainNoon
+124,1,car,HardRainNoon
+125,1,car,HardRainNoon
+126,2,car|car,HardRainNoon
+127,2,car|car,HardRainNoon
+128,2,car|car,HardRainNoon
+129,1,car,HardRainNoon
+130,1,car,HardRainNoon
+131,0,,HardRainNoon
+132,0,,HardRainNoon
+133,0,,HardRainNoon
+134,1,car,HardRainNoon
+135,0,,HardRainNoon
+136,2,car|car,HardRainNoon
+137,1,car,HardRainNoon
+138,0,,HardRainNoon
+139,1,car,HardRainNoon
+140,1,car,HardRainNoon
+141,1,car,HardRainNoon
+142,1,car,HardRainNoon
+143,1,car,HardRainNoon
+144,1,car,HardRainNoon
+145,2,car|car,HardRainNoon
+146,2,car|car,HardRainNoon
+147,2,car|car,HardRainNoon
+148,2,car|car,HardRainNoon
+149,2,car|car,HardRainNoon
+150,2,car|car,HardRainNoon
+151,2,car|bench,HardRainNoon
+152,0,,HardRainNoon
+153,2,car|car,HardRainNoon
+154,2,car|car,HardRainNoon
+155,2,car|car,HardRainNoon
+156,1,car,HardRainNoon
+157,0,,HardRainNoon
+158,1,bench,HardRainNoon
+159,1,car,HardRainNoon
+160,1,person,HardRainNoon
+161,2,car|car,HardRainNoon
+162,3,car|bench|car,HardRainNoon
+163,2,car|bench,HardRainNoon
+164,1,car,HardRainNoon
+165,1,car,HardRainNoon
+166,1,car,HardRainNoon
+167,1,car,HardRainNoon
+168,0,,HardRainNoon
+169,0,,HardRainNoon
+170,1,potted plant,HardRainNoon
+171,0,,HardRainNoon
+172,0,,HardRainNoon
+173,3,bench|bench|car,HardRainNoon
+174,2,car|person,HardRainNoon
+175,1,car,HardRainNoon
+176,2,car|bench,HardRainNoon
+177,0,,HardRainNoon
+178,0,,HardRainNoon
+179,1,car,HardRainNoon
+180,1,car,HardRainNoon
+181,3,car|fire hydrant|person,HardRainNoon
+182,2,car|car,HardRainNoon
+183,0,,HardRainNoon
+184,1,car,HardRainNoon
+185,1,car,HardRainNoon
+186,2,car|car,HardRainNoon
+187,3,car|car|car,HardRainNoon
+188,1,car,HardRainNoon
+189,2,car|car,HardRainNoon
+190,2,car|car,HardRainNoon
+191,3,traffic light|person|car,HardRainNoon
+192,3,person|person|car,HardRainNoon
+193,4,car|person|car|car,HardRainNoon
+194,3,car|car|car,HardRainNoon
+195,3,car|car|car,HardRainNoon
+196,1,car,HardRainNoon
+197,1,car,HardRainNoon
+198,1,car,HardRainNoon
+199,1,car,HardRainNoon
+200,1,car,HardRainNoon
+201,1,car,HardRainNoon
+202,1,car,HardRainNoon
+203,2,bench|car,HardRainNoon
+204,2,car|bench,HardRainNoon
+205,1,car,HardRainNoon
+206,2,car|bench,HardRainNoon
+207,3,car|bench|person,HardRainNoon
+208,4,car|bench|bench|bench,HardRainNoon
+209,0,,HardRainNoon
+210,1,car,HardRainNoon
+211,1,car,HardRainNoon
+212,1,car,HardRainNoon
+213,2,car|bench,HardRainNoon
+214,2,car|bench,HardRainNoon
+215,1,car,HardRainNoon
+216,0,,HardRainNoon
+217,0,,HardRainNoon
+218,0,,HardRainNoon
+219,2,car|traffic light,HardRainNoon
+220,2,traffic light|car,HardRainNoon
+221,2,traffic light|car,HardRainNoon
+222,2,traffic light|car,HardRainNoon
+223,2,traffic light|car,HardRainNoon
+224,2,traffic light|car,HardRainNoon
+225,2,car|traffic light,HardRainNoon
+226,2,car|traffic light,HardRainNoon
+227,2,car|traffic light,HardRainNoon
+228,2,car|traffic light,HardRainNoon
+229,2,traffic light|car,HardRainNoon
+230,2,traffic light|car,HardRainNoon
+231,2,traffic light|car,HardRainNoon
+232,1,traffic light,HardRainNoon
+233,2,traffic light|car,HardRainNoon
+234,2,traffic light|car,HardRainNoon
+235,1,traffic light,HardRainNoon
+236,1,traffic light,HardRainNoon
+237,1,traffic light,HardRainNoon
+238,1,traffic light,HardRainNoon
+239,2,traffic light|bench,HardRainNoon
+240,2,traffic light|bench,HardRainNoon
+241,2,traffic light|bench,HardRainNoon
+242,1,traffic light,HardRainNoon
+243,2,traffic light|bench,HardRainNoon
+244,2,traffic light|bench,HardRainNoon
+245,1,traffic light,HardRainNoon
+246,1,traffic light,HardRainNoon
+247,2,traffic light|bench,HardRainNoon
+248,2,traffic light|car,HardRainNoon
+249,1,traffic light,HardRainNoon
+250,2,traffic light|bench,HardRainNoon
+251,2,traffic light|bench,HardRainNoon
+252,2,traffic light|bench,HardRainNoon
+253,3,traffic light|car|bench,HardRainNoon
+254,2,traffic light|car,HardRainNoon
+255,2,traffic light|car,HardRainNoon
+256,2,traffic light|car,HardRainNoon
+257,1,traffic light,HardRainNoon
+258,2,traffic light|car,HardRainNoon
+259,3,traffic light|car|bench,HardRainNoon
+260,2,traffic light|car,HardRainNoon
+261,2,traffic light|bench,HardRainNoon
+262,2,traffic light|bench,HardRainNoon
+263,2,traffic light|bench,HardRainNoon
+264,2,traffic light|bench,HardRainNoon
+265,2,traffic light|bench,HardRainNoon
+266,2,traffic light|bench,HardRainNoon
+267,2,traffic light|bench,HardRainNoon
+268,2,traffic light|bench,HardRainNoon
+269,2,traffic light|bench,HardRainNoon
+270,3,traffic light|bench|car,HardRainNoon
+271,2,traffic light|car,HardRainNoon
+272,3,traffic light|car|bench,HardRainNoon
+273,2,traffic light|car,HardRainNoon
+274,2,traffic light|truck,HardRainNoon
+275,2,traffic light|car,HardRainNoon
+276,3,traffic light|truck|car,HardRainNoon
+277,3,traffic light|truck|car,HardRainNoon
+278,2,traffic light|truck,HardRainNoon
+279,3,traffic light|car|truck,HardRainNoon
+280,1,traffic light,HardRainNoon
+281,1,traffic light,HardRainNoon
+282,2,traffic light|car,HardRainNoon
+283,2,car|traffic light,HardRainNoon
+284,2,traffic light|car,HardRainNoon
+285,2,traffic light|car,HardRainNoon
+286,2,traffic light|car,HardRainNoon
+287,2,traffic light|car,HardRainNoon
+288,2,traffic light|car,HardRainNoon
+289,1,traffic light,HardRainNoon
+290,1,traffic light,HardRainNoon
+291,1,traffic light,HardRainNoon
+292,1,traffic light,HardRainNoon
+293,1,traffic light,HardRainNoon
+294,1,traffic light,HardRainNoon
+295,1,traffic light,HardRainNoon
+296,1,traffic light,HardRainNoon
+297,1,traffic light,HardRainNoon
+298,2,traffic light|truck,HardRainNoon
+299,1,traffic light,HardRainNoon
+300,1,traffic light,HardRainNoon
+301,3,traffic light|car|car,HardRainNoon
+302,2,traffic light|car,HardRainNoon
+303,4,traffic light|car|car|car,HardRainNoon
+304,4,traffic light|car|car|car,HardRainNoon
+305,4,traffic light|car|car|car,HardRainNoon
+306,4,traffic light|car|car|car,HardRainNoon
+307,2,traffic light|truck,HardRainNoon
+308,2,traffic light|car,HardRainNoon
+309,2,traffic light|car,HardRainNoon
+310,2,traffic light|car,HardRainNoon
+311,2,traffic light|car,HardRainNoon
+312,1,traffic light,HardRainNoon
+313,2,traffic light|car,HardRainNoon
+314,3,traffic light|truck|car,HardRainNoon
+315,2,traffic light|truck,HardRainNoon
+316,2,traffic light|car,HardRainNoon
+317,3,traffic light|car|truck,HardRainNoon
+318,2,traffic light|car,HardRainNoon
+319,2,traffic light|car,HardRainNoon
+320,2,traffic light|car,HardRainNoon
+321,2,traffic light|car,HardRainNoon
+322,1,traffic light,HardRainNoon
+323,1,traffic light,HardRainNoon
+324,1,traffic light,HardRainNoon
+325,1,traffic light,HardRainNoon
+326,1,traffic light,HardRainNoon
+327,1,traffic light,HardRainNoon
+328,1,traffic light,HardRainNoon
+329,1,traffic light,HardRainNoon
+330,1,traffic light,HardRainNoon
+331,1,traffic light,HardRainNoon
+332,1,traffic light,HardRainNoon
+333,0,,HardRainNoon
+334,1,traffic light,HardRainNoon
+335,1,traffic light,HardRainNoon
+336,0,,HardRainNoon
+337,1,traffic light,HardRainNoon
+338,1,traffic light,HardRainNoon
+339,1,traffic light,HardRainNoon
+340,1,traffic light,HardRainNoon
+341,1,traffic light,HardRainNoon
+342,1,traffic light,HardRainNoon
+343,1,traffic light,HardRainNoon
+344,1,traffic light,HardRainNoon
+345,1,traffic light,HardRainNoon
+346,1,traffic light,HardRainNoon
+347,1,traffic light,HardRainNoon
+348,0,,HardRainNoon
+349,1,traffic light,HardRainNoon
+350,1,traffic light,HardRainNoon
+351,2,traffic light|traffic light,HardRainNoon
+352,1,traffic light,HardRainNoon
+353,1,traffic light,HardRainNoon
+354,1,traffic light,HardRainNoon
+355,1,traffic light,HardRainNoon
+356,1,traffic light,HardRainNoon
+357,1,traffic light,HardRainNoon
+358,1,traffic light,HardRainNoon
+359,1,traffic light,HardRainNoon
+360,1,traffic light,HardRainNoon
+361,1,traffic light,HardRainNoon
+362,2,traffic light|traffic light,HardRainNoon
+363,1,traffic light,HardRainNoon
+364,1,traffic light,HardRainNoon
+365,1,traffic light,HardRainNoon
+366,1,traffic light,HardRainNoon
+367,2,traffic light|car,HardRainNoon
+368,1,traffic light,HardRainNoon
+369,2,traffic light|car,HardRainNoon
+370,1,traffic light,HardRainNoon
+371,1,traffic light,HardRainNoon
+372,1,traffic light,HardRainNoon
+373,2,traffic light|traffic light,HardRainNoon
+374,1,traffic light,HardRainNoon
+375,2,traffic light|traffic light,HardRainNoon
+376,3,traffic light|traffic light|car,HardRainNoon
+377,2,traffic light|traffic light,HardRainNoon
+378,1,traffic light,HardRainNoon
+379,2,traffic light|traffic light,HardRainNoon
+380,2,traffic light|traffic light,HardRainNoon
+381,2,traffic light|traffic light,HardRainNoon
+382,2,traffic light|traffic light,HardRainNoon
+383,3,traffic light|traffic light|traffic light,HardRainNoon
+384,2,traffic light|traffic light,HardRainNoon
+385,3,traffic light|dining table|traffic light,HardRainNoon
+386,1,traffic light,HardRainNoon
+387,1,traffic light,HardRainNoon
+388,1,traffic light,HardRainNoon
+389,1,traffic light,HardRainNoon
+390,1,traffic light,HardRainNoon
+391,2,dining table|traffic light,HardRainNoon
+392,0,,HardRainNoon
+393,0,,HardRainNoon
+394,4,traffic light|traffic light|traffic light|traffic light,HardRainNoon
+395,1,traffic light,HardRainNoon
+396,1,traffic light,HardRainNoon
+397,2,traffic light|traffic light,HardRainNoon
+398,0,,HardRainNoon
+399,0,,HardRainNoon
+400,1,traffic light,HardRainNoon
+401,0,,HardRainNoon
+402,0,,HardRainNoon
+403,0,,HardRainNoon
+404,0,,HardRainNoon
+405,2,traffic light|traffic light,HardRainNoon
+406,2,traffic light|traffic light,HardRainNoon
+407,2,traffic light|traffic light,HardRainNoon
+408,2,traffic light|traffic light,HardRainNoon
+409,1,traffic light,HardRainNoon
+410,1,traffic light,HardRainNoon
+411,2,traffic light|traffic light,HardRainNoon
+412,2,traffic light|fire hydrant,HardRainNoon
+413,1,traffic light,HardRainNoon
+414,3,traffic light|traffic light|fire hydrant,HardRainNoon
+415,2,traffic light|fire hydrant,HardRainNoon
+416,2,traffic light|traffic light,HardRainNoon
+417,2,traffic light|traffic light,HardRainNoon
+418,2,traffic light|traffic light,HardRainNoon
+419,1,traffic light,HardRainNoon
+420,5,traffic light|traffic light|traffic light|traffic light|person,HardRainNoon
+421,4,traffic light|frisbee|person|traffic light,HardRainNoon
+422,5,traffic light|traffic light|traffic light|frisbee|person,HardRainNoon
+423,3,traffic light|traffic light|traffic light,HardRainNoon
+424,2,traffic light|traffic light,HardRainNoon
+425,1,traffic light,HardRainNoon
+426,2,traffic light|fire hydrant,HardRainNoon
+427,1,traffic light,HardRainNoon
+428,1,traffic light,HardRainNoon
+429,1,traffic light,HardRainNoon
+430,1,traffic light,HardRainNoon
+431,0,,HardRainNoon
+432,2,fire hydrant|traffic light,HardRainNoon
+433,0,,HardRainNoon
+434,0,,HardRainNoon
+435,0,,HardRainNoon
+436,0,,HardRainNoon
+437,1,traffic light,HardRainNoon
+438,0,,HardRainNoon
+439,0,,HardRainNoon
+440,0,,HardRainNoon
+441,0,,HardRainNoon
+442,1,traffic light,HardRainNoon
+443,1,traffic light,HardRainNoon
+444,1,person,HardRainNoon
+445,3,person|traffic light|person,HardRainNoon
+446,0,,HardRainNoon
+447,2,person|person,HardRainNoon
+448,1,traffic light,HardRainNoon
+449,0,,HardRainNoon
+450,1,traffic light,HardRainNoon
+451,0,,HardRainNoon
+452,1,traffic light,HardRainNoon
+453,1,traffic light,HardRainNoon
+454,1,traffic light,HardRainNoon
+455,1,traffic light,HardRainNoon
+456,1,traffic light,HardRainNoon
+457,0,,HardRainNoon
+458,2,person|traffic light,HardRainNoon
+459,0,,HardRainNoon
+460,0,,HardRainNoon
+461,3,traffic light|traffic light|person,HardRainNoon
+462,3,person|traffic light|traffic light,HardRainNoon
+463,2,person|person,HardRainNoon
+464,3,person|traffic light|person,HardRainNoon
+465,0,,HardRainNoon
+466,0,,HardRainNoon
+467,0,,HardRainNoon
+468,4,traffic light|traffic light|traffic light|traffic light,HardRainNoon
+469,0,,HardRainNoon
+470,0,,HardRainNoon
+471,2,traffic light|traffic light,HardRainNoon
+472,0,,HardRainNoon
+473,1,traffic light,HardRainNoon
+474,2,traffic light|traffic light,HardRainNoon
+475,1,traffic light,HardRainNoon
+476,3,traffic light|traffic light|traffic light,HardRainNoon
+477,2,traffic light|traffic light,HardRainNoon
+478,2,traffic light|traffic light,HardRainNoon
+479,1,traffic light,HardRainNoon
+480,1,traffic light,HardRainNoon
+481,2,traffic light|traffic light,HardRainNoon
+482,1,traffic light,HardRainNoon
+483,1,traffic light,HardRainNoon
+484,1,traffic light,HardRainNoon
+485,1,traffic light,HardRainNoon
+486,1,traffic light,HardRainNoon
+487,1,traffic light,HardRainNoon
+488,2,traffic light|traffic light,HardRainNoon
+489,0,,HardRainNoon
+490,2,traffic light|traffic light,HardRainNoon
+491,0,,HardRainNoon
+492,0,,HardRainNoon
+493,1,traffic light,HardRainNoon
+494,0,,HardRainNoon
+495,1,traffic light,HardRainNoon
+496,0,,HardRainNoon
+497,0,,HardRainNoon
+498,2,person|traffic light,HardRainNoon
+499,1,person,HardRainNoon
+500,0,,HardRainNoon
+501,1,traffic light,HardRainNoon
+502,1,traffic light,HardRainNoon
+503,0,,HardRainNoon
+504,0,,HardRainNoon
+505,0,,HardRainNoon
+506,0,,HardRainNoon
+507,0,,HardRainNoon
+508,0,,HardRainNoon
+509,0,,HardRainNoon
+510,0,,HardRainNoon
+511,0,,HardRainNoon
+512,0,,HardRainNoon
+513,0,,HardRainNoon
+514,0,,HardRainNoon
+515,1,traffic light,HardRainNoon
+516,1,traffic light,HardRainNoon
+517,0,,HardRainNoon
+518,0,,HardRainNoon
+519,0,,HardRainNoon
+520,0,,HardRainNoon
+521,0,,HardRainNoon
+522,0,,HardRainNoon
+523,1,person,HardRainNoon
+524,0,,HardRainNoon
+525,0,,HardRainNoon
+526,2,person|traffic light,HardRainNoon
+527,0,,HardRainNoon
+528,0,,HardRainNoon
+529,0,,HardRainNoon
+530,0,,HardRainNoon
+531,0,,HardRainNoon
+532,0,,HardRainNoon
+533,2,traffic light|traffic light,HardRainNoon
+534,2,traffic light|traffic light,HardRainNoon
+535,2,traffic light|traffic light,HardRainNoon
+536,0,,HardRainNoon
+537,2,traffic light|traffic light,HardRainNoon
+538,2,traffic light|traffic light,HardRainNoon
+539,1,traffic light,HardRainNoon
+540,0,,HardRainNoon
+541,1,person,HardRainNoon
+542,0,,HardRainNoon
+543,0,,HardRainNoon
+544,1,person,HardRainNoon
+545,1,traffic light,HardRainNoon
+546,0,,HardRainNoon
+547,0,,HardRainNoon
+548,0,,HardRainNoon
+549,0,,HardRainNoon
+550,0,,HardRainNoon
+551,1,traffic light,HardRainNoon
+552,0,,HardRainNoon
+553,1,potted plant,HardRainNoon
+554,1,potted plant,HardRainNoon
+555,1,potted plant,HardRainNoon
+556,1,potted plant,HardRainNoon
+557,0,,HardRainNoon
+558,2,traffic light|potted plant,HardRainNoon
+559,1,bench,HardRainNoon
+560,1,bench,HardRainNoon
+561,1,potted plant,HardRainNoon
+562,1,potted plant,HardRainNoon
+563,2,potted plant|umbrella,HardRainNoon
+564,1,potted plant,HardRainNoon
+565,0,,HardRainNoon
+566,2,fire hydrant|potted plant,HardRainNoon
+567,0,,HardRainNoon
+568,2,potted plant|potted plant,HardRainNoon
+569,4,potted plant|fire hydrant|traffic light|potted plant,HardRainNoon
+570,4,potted plant|car|traffic light|fire hydrant,HardRainNoon
+571,2,potted plant|car,HardRainNoon
+572,3,potted plant|car|traffic light,HardRainNoon
+573,6,traffic light|potted plant|car|traffic light|traffic light|bowl,HardRainNoon
+574,6,traffic light|potted plant|traffic light|car|person|car,HardRainNoon
+575,4,car|car|traffic light|car,HardRainNoon
+576,7,traffic light|car|traffic light|car|traffic light|potted plant|car,HardRainNoon
+577,5,traffic light|car|car|car|traffic light,HardRainNoon
+578,5,traffic light|car|car|traffic light|car,HardRainNoon
+579,3,traffic light|traffic light|car,HardRainNoon
+580,5,traffic light|traffic light|car|car|car,HardRainNoon
+581,6,car|traffic light|car|car|traffic light|car,HardRainNoon
+582,3,traffic light|car|car,HardRainNoon
+583,6,traffic light|potted plant|potted plant|car|traffic light|car,HardRainNoon
+584,6,traffic light|potted plant|potted plant|traffic light|traffic light|car,HardRainNoon
+585,7,potted plant|traffic light|traffic light|potted plant|car|traffic light|car,HardRainNoon
+586,5,potted plant|car|potted plant|traffic light|traffic light,HardRainNoon
+587,9,traffic light|traffic light|potted plant|car|potted plant|car|car|traffic light|car,HardRainNoon
+588,6,traffic light|car|traffic light|car|potted plant|potted plant,HardRainNoon
+589,3,traffic light|car|traffic light,HardRainNoon
+590,4,traffic light|traffic light|car|car,HardRainNoon
+591,3,car|traffic light|traffic light,HardRainNoon
+592,2,car|traffic light,HardRainNoon
+593,1,car,HardRainNoon
+594,3,car|traffic light|car,HardRainNoon
+595,5,potted plant|traffic light|car|potted plant|traffic light,HardRainNoon
+596,6,traffic light|traffic light|potted plant|car|traffic light|potted plant,HardRainNoon
+597,6,car|bowl|car|traffic light|potted plant|potted plant,HardRainNoon
+598,4,car|bowl|potted plant|traffic light,HardRainNoon
+599,2,car|bowl,HardRainNoon

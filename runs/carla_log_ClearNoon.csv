@@ -1,0 +1,601 @@
+frame,n_detections,classes,weather
+0,2,truck|person,ClearNoon
+1,1,truck,ClearNoon
+2,1,person,ClearNoon
+3,1,person,ClearNoon
+4,1,person,ClearNoon
+5,3,person|truck|person,ClearNoon
+6,0,,ClearNoon
+7,2,person|person,ClearNoon
+8,2,person|person,ClearNoon
+9,2,person|truck,ClearNoon
+10,0,,ClearNoon
+11,0,,ClearNoon
+12,2,person|person,ClearNoon
+13,2,person|person,ClearNoon
+14,0,,ClearNoon
+15,3,person|person|truck,ClearNoon
+16,3,truck|person|person,ClearNoon
+17,2,traffic light|person,ClearNoon
+18,3,person|truck|bench,ClearNoon
+19,2,truck|person,ClearNoon
+20,2,person|person,ClearNoon
+21,1,person,ClearNoon
+22,0,,ClearNoon
+23,2,truck|bench,ClearNoon
+24,1,truck,ClearNoon
+25,1,truck,ClearNoon
+26,3,truck|traffic light|person,ClearNoon
+27,1,truck,ClearNoon
+28,1,truck,ClearNoon
+29,1,truck,ClearNoon
+30,4,truck|person|car|person,ClearNoon
+31,5,person|person|truck|car|traffic light,ClearNoon
+32,1,truck,ClearNoon
+33,2,truck|truck,ClearNoon
+34,2,car|truck,ClearNoon
+35,2,truck|truck,ClearNoon
+36,2,truck|truck,ClearNoon
+37,1,truck,ClearNoon
+38,3,person|person|person,ClearNoon
+39,2,truck|person,ClearNoon
+40,3,truck|person|traffic light,ClearNoon
+41,1,truck,ClearNoon
+42,2,truck|truck,ClearNoon
+43,2,truck|truck,ClearNoon
+44,3,truck|truck|person,ClearNoon
+45,1,person,ClearNoon
+46,2,truck|person,ClearNoon
+47,1,truck,ClearNoon
+48,5,truck|car|traffic light|person|traffic light,ClearNoon
+49,2,traffic light|person,ClearNoon
+50,1,person,ClearNoon
+51,3,person|truck|traffic light,ClearNoon
+52,3,person|traffic light|person,ClearNoon
+53,3,traffic light|traffic light|person,ClearNoon
+54,3,traffic light|truck|person,ClearNoon
+55,3,truck|truck|person,ClearNoon
+56,2,truck|person,ClearNoon
+57,4,truck|person|car|traffic light,ClearNoon
+58,2,truck|person,ClearNoon
+59,4,truck|person|car|traffic light,ClearNoon
+60,5,truck|traffic light|truck|person|car,ClearNoon
+61,3,truck|person|truck,ClearNoon
+62,3,truck|person|traffic light,ClearNoon
+63,5,traffic light|truck|truck|person|traffic light,ClearNoon
+64,3,traffic light|truck|person,ClearNoon
+65,6,traffic light|person|car|traffic light|person|truck,ClearNoon
+66,4,truck|traffic light|traffic light|person,ClearNoon
+67,5,car|traffic light|person|traffic light|car,ClearNoon
+68,5,car|traffic light|person|car|traffic light,ClearNoon
+69,4,traffic light|car|car|person,ClearNoon
+70,3,car|person|traffic light,ClearNoon
+71,3,car|person|traffic light,ClearNoon
+72,4,car|car|traffic light|traffic light,ClearNoon
+73,5,car|car|traffic light|traffic light|truck,ClearNoon
+74,5,car|traffic light|car|truck|traffic light,ClearNoon
+75,7,car|traffic light|truck|traffic light|person|car|traffic light,ClearNoon
+76,6,traffic light|car|car|traffic light|truck|traffic light,ClearNoon
+77,4,car|traffic light|traffic light|person,ClearNoon
+78,6,bus|traffic light|traffic light|truck|car|car,ClearNoon
+79,3,traffic light|traffic light|car,ClearNoon
+80,4,car|traffic light|traffic light|truck,ClearNoon
+81,5,traffic light|car|car|person|traffic light,ClearNoon
+82,5,traffic light|traffic light|truck|car|car,ClearNoon
+83,4,traffic light|car|traffic light|car,ClearNoon
+84,4,traffic light|person|traffic light|car,ClearNoon
+85,4,traffic light|car|car|car,ClearNoon
+86,4,traffic light|traffic light|car|car,ClearNoon
+87,3,traffic light|car|car,ClearNoon
+88,3,car|car|car,ClearNoon
+89,3,traffic light|car|car,ClearNoon
+90,3,traffic light|car|car,ClearNoon
+91,4,traffic light|car|car|truck,ClearNoon
+92,4,traffic light|car|truck|car,ClearNoon
+93,4,traffic light|car|traffic light|car,ClearNoon
+94,4,traffic light|car|truck|bus,ClearNoon
+95,4,traffic light|car|truck|car,ClearNoon
+96,3,traffic light|car|truck,ClearNoon
+97,3,traffic light|car|car,ClearNoon
+98,4,traffic light|car|car|traffic light,ClearNoon
+99,5,traffic light|car|car|car|truck,ClearNoon
+100,3,traffic light|car|car,ClearNoon
+101,4,traffic light|car|car|truck,ClearNoon
+102,3,traffic light|car|car,ClearNoon
+103,4,traffic light|truck|car|car,ClearNoon
+104,5,traffic light|car|car|truck|car,ClearNoon
+105,5,traffic light|car|car|car|truck,ClearNoon
+106,4,traffic light|truck|car|car,ClearNoon
+107,4,traffic light|car|car|truck,ClearNoon
+108,5,traffic light|car|car|truck|car,ClearNoon
+109,5,traffic light|car|car|car|truck,ClearNoon
+110,4,traffic light|car|truck|car,ClearNoon
+111,5,traffic light|car|car|car|truck,ClearNoon
+112,4,traffic light|car|car|truck,ClearNoon
+113,5,traffic light|car|car|truck|bus,ClearNoon
+114,3,traffic light|car|car,ClearNoon
+115,4,traffic light|car|car|truck,ClearNoon
+116,4,traffic light|car|car|car,ClearNoon
+117,4,traffic light|car|car|car,ClearNoon
+118,5,traffic light|car|car|car|car,ClearNoon
+119,5,traffic light|car|car|truck|car,ClearNoon
+120,5,traffic light|car|car|car|bus,ClearNoon
+121,4,bus|traffic light|car|car,ClearNoon
+122,4,bus|traffic light|car|car,ClearNoon
+123,5,traffic light|bus|car|car|truck,ClearNoon
+124,5,traffic light|car|bus|truck|car,ClearNoon
+125,5,traffic light|bus|car|car|truck,ClearNoon
+126,4,traffic light|car|car|truck,ClearNoon
+127,4,traffic light|car|car|car,ClearNoon
+128,4,traffic light|car|car|car,ClearNoon
+129,5,traffic light|car|car|car|truck,ClearNoon
+130,4,bus|traffic light|car|car,ClearNoon
+131,4,bus|traffic light|car|car,ClearNoon
+132,4,traffic light|truck|car|car,ClearNoon
+133,6,traffic light|car|bus|car|truck|car,ClearNoon
+134,5,traffic light|car|truck|bus|car,ClearNoon
+135,4,car|traffic light|car|car,ClearNoon
+136,6,bus|traffic light|car|car|traffic light|person,ClearNoon
+137,8,traffic light|bus|car|car|truck|traffic light|car|person,ClearNoon
+138,5,bus|traffic light|car|car|traffic light,ClearNoon
+139,6,bus|traffic light|car|car|person|traffic light,ClearNoon
+140,4,bus|traffic light|car|car,ClearNoon
+141,4,bus|traffic light|car|car,ClearNoon
+142,4,bus|traffic light|car|car,ClearNoon
+143,4,bus|traffic light|car|car,ClearNoon
+144,4,bus|traffic light|car|car,ClearNoon
+145,4,bus|traffic light|car|car,ClearNoon
+146,4,bus|traffic light|car|car,ClearNoon
+147,4,bus|traffic light|car|car,ClearNoon
+148,5,bus|traffic light|car|car|car,ClearNoon
+149,4,bus|traffic light|car|car,ClearNoon
+150,5,bus|traffic light|car|car|car,ClearNoon
+151,4,bus|car|car|traffic light,ClearNoon
+152,4,bus|car|car|traffic light,ClearNoon
+153,5,bus|car|truck|traffic light|car,ClearNoon
+154,4,bus|traffic light|car|car,ClearNoon
+155,4,bus|car|car|traffic light,ClearNoon
+156,4,truck|traffic light|car|car,ClearNoon
+157,4,traffic light|car|car|truck,ClearNoon
+158,4,traffic light|car|car|car,ClearNoon
+159,4,traffic light|car|car|car,ClearNoon
+160,3,traffic light|car|car,ClearNoon
+161,3,traffic light|car|car,ClearNoon
+162,3,traffic light|car|car,ClearNoon
+163,4,traffic light|car|car|traffic light,ClearNoon
+164,3,traffic light|car|car,ClearNoon
+165,3,traffic light|car|car,ClearNoon
+166,3,traffic light|car|car,ClearNoon
+167,3,traffic light|car|car,ClearNoon
+168,3,traffic light|car|car,ClearNoon
+169,3,traffic light|car|car,ClearNoon
+170,3,traffic light|car|car,ClearNoon
+171,3,traffic light|car|car,ClearNoon
+172,3,traffic light|car|car,ClearNoon
+173,3,traffic light|car|car,ClearNoon
+174,3,traffic light|car|car,ClearNoon
+175,3,traffic light|car|car,ClearNoon
+176,3,traffic light|car|car,ClearNoon
+177,3,traffic light|car|car,ClearNoon
+178,3,traffic light|car|car,ClearNoon
+179,3,traffic light|car|car,ClearNoon
+180,3,traffic light|car|car,ClearNoon
+181,3,traffic light|car|car,ClearNoon
+182,3,traffic light|car|car,ClearNoon
+183,3,traffic light|car|car,ClearNoon
+184,3,traffic light|car|car,ClearNoon
+185,3,traffic light|car|car,ClearNoon
+186,3,traffic light|car|car,ClearNoon
+187,3,traffic light|car|car,ClearNoon
+188,4,traffic light|car|car|car,ClearNoon
+189,3,traffic light|car|car,ClearNoon
+190,3,traffic light|car|car,ClearNoon
+191,3,traffic light|car|car,ClearNoon
+192,3,traffic light|car|car,ClearNoon
+193,3,traffic light|car|car,ClearNoon
+194,3,traffic light|car|car,ClearNoon
+195,3,traffic light|car|car,ClearNoon
+196,4,traffic light|car|car|traffic light,ClearNoon
+197,3,traffic light|car|car,ClearNoon
+198,4,traffic light|car|car|car,ClearNoon
+199,4,traffic light|car|car|car,ClearNoon
+200,3,traffic light|car|car,ClearNoon
+201,4,traffic light|car|car|car,ClearNoon
+202,3,traffic light|car|car,ClearNoon
+203,4,traffic light|car|car|traffic light,ClearNoon
+204,3,traffic light|car|car,ClearNoon
+205,3,traffic light|car|car,ClearNoon
+206,3,traffic light|car|car,ClearNoon
+207,3,traffic light|car|car,ClearNoon
+208,3,traffic light|car|car,ClearNoon
+209,4,traffic light|car|car|car,ClearNoon
+210,3,traffic light|car|car,ClearNoon
+211,3,traffic light|car|car,ClearNoon
+212,3,traffic light|car|car,ClearNoon
+213,3,traffic light|car|car,ClearNoon
+214,3,traffic light|car|car,ClearNoon
+215,3,traffic light|car|car,ClearNoon
+216,3,traffic light|car|car,ClearNoon
+217,4,traffic light|car|car|car,ClearNoon
+218,3,traffic light|car|car,ClearNoon
+219,3,traffic light|car|car,ClearNoon
+220,3,traffic light|car|car,ClearNoon
+221,3,traffic light|car|car,ClearNoon
+222,3,traffic light|car|car,ClearNoon
+223,3,traffic light|car|car,ClearNoon
+224,3,traffic light|car|car,ClearNoon
+225,3,traffic light|car|car,ClearNoon
+226,3,traffic light|car|car,ClearNoon
+227,3,traffic light|car|car,ClearNoon
+228,4,traffic light|car|car|car,ClearNoon
+229,3,traffic light|car|car,ClearNoon
+230,3,traffic light|car|car,ClearNoon
+231,3,traffic light|car|car,ClearNoon
+232,3,traffic light|car|car,ClearNoon
+233,3,traffic light|car|car,ClearNoon
+234,3,traffic light|car|car,ClearNoon
+235,3,traffic light|car|car,ClearNoon
+236,4,traffic light|car|car|traffic light,ClearNoon
+237,3,traffic light|car|car,ClearNoon
+238,3,traffic light|car|car,ClearNoon
+239,4,traffic light|car|car|car,ClearNoon
+240,3,traffic light|car|car,ClearNoon
+241,3,traffic light|car|car,ClearNoon
+242,3,traffic light|car|car,ClearNoon
+243,4,traffic light|car|car|traffic light,ClearNoon
+244,4,traffic light|car|car|traffic light,ClearNoon
+245,3,traffic light|car|car,ClearNoon
+246,3,traffic light|car|car,ClearNoon
+247,3,traffic light|car|car,ClearNoon
+248,3,traffic light|car|car,ClearNoon
+249,3,traffic light|car|car,ClearNoon
+250,3,traffic light|car|car,ClearNoon
+251,3,traffic light|car|car,ClearNoon
+252,3,traffic light|car|car,ClearNoon
+253,3,traffic light|car|car,ClearNoon
+254,3,traffic light|car|car,ClearNoon
+255,3,traffic light|car|car,ClearNoon
+256,3,traffic light|car|car,ClearNoon
+257,3,traffic light|car|car,ClearNoon
+258,3,traffic light|car|car,ClearNoon
+259,3,traffic light|car|car,ClearNoon
+260,3,traffic light|car|car,ClearNoon
+261,3,traffic light|car|car,ClearNoon
+262,3,traffic light|car|car,ClearNoon
+263,3,traffic light|car|car,ClearNoon
+264,3,traffic light|car|car,ClearNoon
+265,3,traffic light|car|car,ClearNoon
+266,3,traffic light|car|car,ClearNoon
+267,3,traffic light|car|car,ClearNoon
+268,4,traffic light|car|car|car,ClearNoon
+269,3,traffic light|car|car,ClearNoon
+270,3,traffic light|car|car,ClearNoon
+271,3,traffic light|car|car,ClearNoon
+272,3,traffic light|car|car,ClearNoon
+273,3,traffic light|car|car,ClearNoon
+274,3,traffic light|car|car,ClearNoon
+275,3,traffic light|car|car,ClearNoon
+276,4,traffic light|car|car|car,ClearNoon
+277,4,traffic light|car|car|car,ClearNoon
+278,4,traffic light|car|car|car,ClearNoon
+279,4,car|traffic light|car|car,ClearNoon
+280,4,car|traffic light|car|car,ClearNoon
+281,5,car|traffic light|car|car|car,ClearNoon
+282,4,car|traffic light|car|car,ClearNoon
+283,4,car|traffic light|car|car,ClearNoon
+284,4,car|traffic light|car|car,ClearNoon
+285,4,car|traffic light|car|car,ClearNoon
+286,4,car|traffic light|car|car,ClearNoon
+287,4,car|traffic light|car|car,ClearNoon
+288,4,car|traffic light|car|car,ClearNoon
+289,4,car|traffic light|car|car,ClearNoon
+290,4,car|traffic light|car|car,ClearNoon
+291,4,car|traffic light|car|car,ClearNoon
+292,4,car|traffic light|car|car,ClearNoon
+293,4,car|traffic light|car|car,ClearNoon
+294,4,car|traffic light|car|car,ClearNoon
+295,4,traffic light|car|car|car,ClearNoon
+296,4,traffic light|car|car|car,ClearNoon
+297,6,traffic light|car|car|car|car|truck,ClearNoon
+298,4,car|traffic light|car|car,ClearNoon
+299,4,traffic light|car|car|car,ClearNoon
+300,4,car|traffic light|car|car,ClearNoon
+301,4,car|traffic light|car|car,ClearNoon
+302,4,car|traffic light|car|car,ClearNoon
+303,4,car|traffic light|car|car,ClearNoon
+304,4,car|traffic light|car|car,ClearNoon
+305,4,traffic light|car|car|car,ClearNoon
+306,5,car|traffic light|car|car|traffic light,ClearNoon
+307,4,car|traffic light|car|car,ClearNoon
+308,5,car|traffic light|car|car|car,ClearNoon
+309,4,car|traffic light|car|car,ClearNoon
+310,4,car|traffic light|car|car,ClearNoon
+311,4,car|traffic light|car|car,ClearNoon
+312,5,car|traffic light|car|car|traffic light,ClearNoon
+313,5,car|traffic light|car|car|traffic light,ClearNoon
+314,5,car|traffic light|car|car|traffic light,ClearNoon
+315,4,car|traffic light|car|car,ClearNoon
+316,6,car|traffic light|car|car|traffic light|traffic light,ClearNoon
+317,5,car|traffic light|car|car|traffic light,ClearNoon
+318,5,car|traffic light|car|car|car,ClearNoon
+319,5,car|traffic light|car|car|car,ClearNoon
+320,4,car|traffic light|car|car,ClearNoon
+321,5,car|traffic light|car|car|car,ClearNoon
+322,4,car|traffic light|car|car,ClearNoon
+323,5,car|traffic light|car|car|traffic light,ClearNoon
+324,5,car|traffic light|car|car|traffic light,ClearNoon
+325,4,car|traffic light|car|car,ClearNoon
+326,4,car|traffic light|car|car,ClearNoon
+327,4,car|traffic light|car|car,ClearNoon
+328,4,car|traffic light|car|car,ClearNoon
+329,4,car|traffic light|car|car,ClearNoon
+330,4,car|traffic light|car|car,ClearNoon
+331,4,car|traffic light|car|car,ClearNoon
+332,4,car|traffic light|car|car,ClearNoon
+333,4,car|traffic light|car|car,ClearNoon
+334,4,car|traffic light|car|car,ClearNoon
+335,4,car|traffic light|car|car,ClearNoon
+336,5,car|traffic light|car|car|car,ClearNoon
+337,6,car|traffic light|car|car|car|car,ClearNoon
+338,6,car|traffic light|car|car|car|car,ClearNoon
+339,5,car|traffic light|car|car|car,ClearNoon
+340,5,car|traffic light|car|car|car,ClearNoon
+341,5,car|traffic light|car|car|car,ClearNoon
+342,5,car|car|traffic light|car|car,ClearNoon
+343,5,car|car|traffic light|car|car,ClearNoon
+344,6,car|car|traffic light|car|car|car,ClearNoon
+345,5,car|traffic light|car|car|car,ClearNoon
+346,6,car|traffic light|car|car|car|traffic light,ClearNoon
+347,6,car|traffic light|car|car|car|traffic light,ClearNoon
+348,6,car|traffic light|car|car|car|car,ClearNoon
+349,5,car|car|traffic light|car|car,ClearNoon
+350,5,car|car|traffic light|car|car,ClearNoon
+351,5,car|car|traffic light|car|car,ClearNoon
+352,5,car|car|traffic light|car|car,ClearNoon
+353,5,car|traffic light|car|car|car,ClearNoon
+354,5,car|traffic light|car|car|car,ClearNoon
+355,5,car|traffic light|car|car|car,ClearNoon
+356,7,car|traffic light|car|car|car|truck|traffic light,ClearNoon
+357,5,car|traffic light|car|car|car,ClearNoon
+358,6,car|traffic light|car|car|car|truck,ClearNoon
+359,7,car|traffic light|car|car|car|truck|car,ClearNoon
+360,5,car|traffic light|car|car|car,ClearNoon
+361,5,car|traffic light|car|car|car,ClearNoon
+362,5,car|traffic light|car|car|car,ClearNoon
+363,6,car|traffic light|car|car|car|traffic light,ClearNoon
+364,6,car|traffic light|car|car|car|truck,ClearNoon
+365,6,car|traffic light|car|car|car|truck,ClearNoon
+366,6,car|traffic light|car|car|car|truck,ClearNoon
+367,6,car|traffic light|car|car|car|truck,ClearNoon
+368,6,car|traffic light|car|car|car|truck,ClearNoon
+369,5,car|traffic light|car|car|car,ClearNoon
+370,5,car|traffic light|car|car|car,ClearNoon
+371,5,car|traffic light|car|car|car,ClearNoon
+372,5,car|traffic light|car|car|car,ClearNoon
+373,5,car|traffic light|car|car|car,ClearNoon
+374,6,car|traffic light|car|car|car|traffic light,ClearNoon
+375,5,car|traffic light|car|car|car,ClearNoon
+376,6,car|traffic light|car|car|car|truck,ClearNoon
+377,6,car|traffic light|car|car|car|traffic light,ClearNoon
+378,6,car|traffic light|car|car|car|traffic light,ClearNoon
+379,8,car|traffic light|truck|car|car|traffic light|car|traffic light,ClearNoon
+380,6,car|traffic light|car|car|truck|car,ClearNoon
+381,6,car|traffic light|car|car|truck|car,ClearNoon
+382,6,car|traffic light|car|car|truck|car,ClearNoon
+383,6,car|car|traffic light|car|truck|car,ClearNoon
+384,6,car|traffic light|car|car|truck|car,ClearNoon
+385,5,car|traffic light|car|car|truck,ClearNoon
+386,6,car|traffic light|car|car|traffic light|truck,ClearNoon
+387,6,car|traffic light|car|car|traffic light|car,ClearNoon
+388,7,car|traffic light|car|truck|car|car|traffic light,ClearNoon
+389,5,car|traffic light|car|car|traffic light,ClearNoon
+390,6,car|traffic light|truck|car|car|traffic light,ClearNoon
+391,5,car|traffic light|car|truck|car,ClearNoon
+392,5,car|traffic light|car|car|truck,ClearNoon
+393,6,car|traffic light|car|truck|car|car,ClearNoon
+394,4,car|traffic light|truck|car,ClearNoon
+395,6,car|traffic light|truck|car|car|car,ClearNoon
+396,7,car|traffic light|car|car|bus|truck|traffic light,ClearNoon
+397,6,car|traffic light|car|car|car|truck,ClearNoon
+398,6,car|traffic light|truck|car|car|bus,ClearNoon
+399,5,car|traffic light|car|truck|car,ClearNoon
+400,6,car|traffic light|car|truck|car|car,ClearNoon
+401,7,car|traffic light|car|car|truck|car|car,ClearNoon
+402,6,car|traffic light|car|car|truck|bus,ClearNoon
+403,7,car|traffic light|car|car|car|truck|traffic light,ClearNoon
+404,6,traffic light|car|car|car|truck|traffic light,ClearNoon
+405,6,traffic light|car|car|car|truck|car,ClearNoon
+406,4,traffic light|car|car|truck,ClearNoon
+407,4,traffic light|truck|car|car,ClearNoon
+408,5,traffic light|car|car|truck|car,ClearNoon
+409,5,traffic light|car|truck|car|car,ClearNoon
+410,5,traffic light|car|car|truck|car,ClearNoon
+411,5,traffic light|truck|car|car|car,ClearNoon
+412,5,traffic light|car|truck|car|car,ClearNoon
+413,5,traffic light|truck|car|car|car,ClearNoon
+414,5,traffic light|truck|car|car|car,ClearNoon
+415,6,traffic light|car|car|truck|car|bus,ClearNoon
+416,6,traffic light|truck|car|car|bus|car,ClearNoon
+417,5,car|traffic light|car|car|car,ClearNoon
+418,6,traffic light|bus|car|car|car|truck,ClearNoon
+419,6,traffic light|bus|car|car|car|truck,ClearNoon
+420,5,traffic light|truck|car|car|car,ClearNoon
+421,5,traffic light|truck|car|car|car,ClearNoon
+422,4,traffic light|truck|car|car,ClearNoon
+423,5,traffic light|truck|car|car|car,ClearNoon
+424,4,traffic light|truck|car|car,ClearNoon
+425,4,traffic light|car|truck|car,ClearNoon
+426,5,traffic light|car|car|truck|car,ClearNoon
+427,4,traffic light|car|car|truck,ClearNoon
+428,4,traffic light|car|car|car,ClearNoon
+429,5,traffic light|car|car|car|truck,ClearNoon
+430,5,traffic light|car|truck|car|car,ClearNoon
+431,3,traffic light|car|car,ClearNoon
+432,5,traffic light|car|car|truck|car,ClearNoon
+433,5,traffic light|car|car|car|truck,ClearNoon
+434,5,traffic light|car|car|truck|car,ClearNoon
+435,5,traffic light|car|car|car|truck,ClearNoon
+436,6,traffic light|car|car|truck|car|traffic light,ClearNoon
+437,3,traffic light|car|car,ClearNoon
+438,4,traffic light|truck|car|car,ClearNoon
+439,5,traffic light|truck|car|car|car,ClearNoon
+440,4,traffic light|truck|car|car,ClearNoon
+441,5,traffic light|truck|car|car|car,ClearNoon
+442,4,traffic light|truck|car|car,ClearNoon
+443,5,traffic light|truck|car|car|traffic light,ClearNoon
+444,4,traffic light|truck|car|car,ClearNoon
+445,4,traffic light|truck|car|car,ClearNoon
+446,5,traffic light|truck|car|car|bus,ClearNoon
+447,4,traffic light|truck|car|car,ClearNoon
+448,4,truck|traffic light|car|car,ClearNoon
+449,4,traffic light|car|truck|car,ClearNoon
+450,4,traffic light|car|car|truck,ClearNoon
+451,4,traffic light|truck|car|car,ClearNoon
+452,4,traffic light|truck|car|car,ClearNoon
+453,4,traffic light|car|truck|car,ClearNoon
+454,4,traffic light|truck|car|car,ClearNoon
+455,4,traffic light|car|truck|car,ClearNoon
+456,4,traffic light|truck|car|car,ClearNoon
+457,4,traffic light|car|truck|car,ClearNoon
+458,4,traffic light|car|car|truck,ClearNoon
+459,4,traffic light|car|truck|car,ClearNoon
+460,4,traffic light|truck|car|car,ClearNoon
+461,4,traffic light|car|truck|car,ClearNoon
+462,2,traffic light|car,ClearNoon
+463,2,traffic light|car,ClearNoon
+464,2,traffic light|car,ClearNoon
+465,2,traffic light|car,ClearNoon
+466,2,traffic light|car,ClearNoon
+467,3,traffic light|car|traffic light,ClearNoon
+468,4,traffic light|car|car|car,ClearNoon
+469,4,traffic light|car|truck|car,ClearNoon
+470,3,traffic light|car|truck,ClearNoon
+471,4,traffic light|truck|car|car,ClearNoon
+472,3,traffic light|truck|car,ClearNoon
+473,3,traffic light|car|truck,ClearNoon
+474,3,traffic light|car|truck,ClearNoon
+475,3,traffic light|car|truck,ClearNoon
+476,4,traffic light|truck|bus|traffic light,ClearNoon
+477,3,traffic light|truck|car,ClearNoon
+478,2,traffic light|truck,ClearNoon
+479,2,traffic light|truck,ClearNoon
+480,3,traffic light|truck|car,ClearNoon
+481,3,traffic light|truck|bus,ClearNoon
+482,2,traffic light|truck,ClearNoon
+483,3,traffic light|truck|traffic light,ClearNoon
+484,3,traffic light|bus|truck,ClearNoon
+485,4,traffic light|truck|bus|car,ClearNoon
+486,1,traffic light,ClearNoon
+487,2,traffic light|truck,ClearNoon
+488,3,traffic light|truck|car,ClearNoon
+489,3,traffic light|truck|car,ClearNoon
+490,3,traffic light|car|car,ClearNoon
+491,4,traffic light|car|car|car,ClearNoon
+492,3,traffic light|car|car,ClearNoon
+493,3,traffic light|car|car,ClearNoon
+494,3,traffic light|car|car,ClearNoon
+495,3,traffic light|car|car,ClearNoon
+496,4,traffic light|car|car|car,ClearNoon
+497,3,traffic light|car|car,ClearNoon
+498,3,traffic light|car|car,ClearNoon
+499,5,traffic light|car|truck|car|car,ClearNoon
+500,4,traffic light|car|car|car,ClearNoon
+501,3,traffic light|car|car,ClearNoon
+502,3,traffic light|car|car,ClearNoon
+503,3,traffic light|car|car,ClearNoon
+504,3,traffic light|car|car,ClearNoon
+505,3,traffic light|car|car,ClearNoon
+506,3,traffic light|car|car,ClearNoon
+507,3,traffic light|car|car,ClearNoon
+508,4,traffic light|car|car|car,ClearNoon
+509,3,traffic light|car|car,ClearNoon
+510,3,traffic light|car|car,ClearNoon
+511,3,traffic light|car|car,ClearNoon
+512,3,traffic light|car|car,ClearNoon
+513,3,traffic light|car|car,ClearNoon
+514,3,traffic light|car|car,ClearNoon
+515,3,traffic light|car|car,ClearNoon
+516,4,traffic light|car|car|traffic light,ClearNoon
+517,3,traffic light|car|car,ClearNoon
+518,3,traffic light|car|car,ClearNoon
+519,4,traffic light|car|car|car,ClearNoon
+520,3,traffic light|car|car,ClearNoon
+521,3,traffic light|car|car,ClearNoon
+522,3,traffic light|car|car,ClearNoon
+523,4,traffic light|car|car|traffic light,ClearNoon
+524,3,traffic light|car|car,ClearNoon
+525,3,traffic light|car|car,ClearNoon
+526,3,traffic light|car|car,ClearNoon
+527,3,traffic light|car|car,ClearNoon
+528,3,traffic light|car|car,ClearNoon
+529,3,traffic light|car|car,ClearNoon
+530,3,traffic light|car|car,ClearNoon
+531,3,traffic light|car|car,ClearNoon
+532,3,traffic light|car|car,ClearNoon
+533,3,traffic light|car|car,ClearNoon
+534,3,traffic light|car|car,ClearNoon
+535,3,traffic light|car|car,ClearNoon
+536,3,traffic light|car|car,ClearNoon
+537,3,traffic light|car|car,ClearNoon
+538,3,traffic light|car|car,ClearNoon
+539,3,traffic light|car|car,ClearNoon
+540,3,traffic light|car|car,ClearNoon
+541,3,traffic light|car|car,ClearNoon
+542,3,traffic light|car|car,ClearNoon
+543,3,traffic light|car|car,ClearNoon
+544,3,traffic light|car|car,ClearNoon
+545,4,traffic light|car|car|car,ClearNoon
+546,3,traffic light|car|car,ClearNoon
+547,3,traffic light|car|car,ClearNoon
+548,4,traffic light|car|car|car,ClearNoon
+549,3,traffic light|car|car,ClearNoon
+550,4,traffic light|car|car|car,ClearNoon
+551,4,traffic light|car|car|car,ClearNoon
+552,3,traffic light|car|car,ClearNoon
+553,4,traffic light|car|car|car,ClearNoon
+554,4,traffic light|car|car|car,ClearNoon
+555,3,traffic light|car|car,ClearNoon
+556,2,traffic light|car,ClearNoon
+557,3,traffic light|car|car,ClearNoon
+558,3,traffic light|traffic light|car,ClearNoon
+559,2,traffic light|traffic light,ClearNoon
+560,3,traffic light|car|car,ClearNoon
+561,3,traffic light|traffic light|traffic light,ClearNoon
+562,2,car|traffic light,ClearNoon
+563,2,car|car,ClearNoon
+564,2,car|car,ClearNoon
+565,2,car|car,ClearNoon
+566,3,car|car|traffic light,ClearNoon
+567,3,traffic light|car|car,ClearNoon
+568,6,traffic light|car|car|person|car|person,ClearNoon
+569,5,traffic light|car|car|person|car,ClearNoon
+570,5,car|car|person|traffic light|person,ClearNoon
+571,1,car,ClearNoon
+572,3,traffic light|traffic light|car,ClearNoon
+573,2,traffic light|car,ClearNoon
+574,2,car|traffic light,ClearNoon
+575,0,,ClearNoon
+576,1,traffic light,ClearNoon
+577,3,traffic light|traffic light|traffic light,ClearNoon
+578,3,traffic light|car|traffic light,ClearNoon
+579,3,traffic light|car|traffic light,ClearNoon
+580,1,car,ClearNoon
+581,3,traffic light|car|traffic light,ClearNoon
+582,3,traffic light|car|traffic light,ClearNoon
+583,4,traffic light|traffic light|car|traffic light,ClearNoon
+584,2,car|traffic light,ClearNoon
+585,3,traffic light|traffic light|traffic light,ClearNoon
+586,3,traffic light|car|traffic light,ClearNoon
+587,3,car|traffic light|traffic light,ClearNoon
+588,3,traffic light|car|traffic light,ClearNoon
+589,2,car|traffic light,ClearNoon
+590,2,traffic light|car,ClearNoon
+591,4,traffic light|car|traffic light|traffic light,ClearNoon
+592,2,car|traffic light,ClearNoon
+593,3,car|traffic light|traffic light,ClearNoon
+594,5,traffic light|car|traffic light|traffic light|traffic light,ClearNoon
+595,5,car|traffic light|traffic light|traffic light|traffic light,ClearNoon
+596,3,car|traffic light|traffic light,ClearNoon
+597,3,traffic light|traffic light|car,ClearNoon
+598,2,traffic light|car,ClearNoon
+599,4,traffic light|traffic light|traffic light|car,ClearNoon

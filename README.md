@@ -9,9 +9,7 @@ Built as a learning project toward **SiL-style validation** of autonomous-drivin
 - [x] Scaffold: evaluation harness + FPS bench + CARLA client code
 - [x] **Phase 1**: driving-class evaluation on COCO val2017 — results table below (2026-08-18)
 - [x] **C++ inference node**: same model exported to ONNX, OpenCV DNN in C++, latency vs the Python path (2026-08-18)
-- [ ] **Phase 2 — CARLA closed-loop**: ego vehicle + camera + live YOLO inference in the simulator
-
-> Phase 2 code lives in [`carla/`](carla/) and has not been run yet — CARLA has no macOS build; it requires a Linux + GPU machine.
+- [x] **Phase 2 — CARLA closed-loop**: ego vehicle + traffic + live YOLO inference in the simulator, 3 weather scenarios (2026-08-19, CARLA 0.9.16 on a rented RTX 5070 Ti VM)
 
 ## Why this shape
 
@@ -52,6 +50,20 @@ First failure-analysis takeaways: small objects hurt most — **traffic light AP
 | Python (PyTorch, Apple GPU `mps`) | 13.1 |
 
 The C++ number times `net.forward()` only; the Python numbers include pre/post-processing — same order of magnitude, not a strict apples-to-apples. Detection output of the C++ node verified against the reference `bus.jpg` (4 persons + bus).
+
+### CARLA closed-loop (Phase 2)
+
+CARLA 0.9.16 server (`-RenderOffScreen`, quality Low) on a rented RTX 5070 Ti VM: ego vehicle + 30 background vehicles on autopilot, synchronous mode at 20 Hz, YOLOv8n on every camera frame (1280×720).
+
+| Weather | Frames | Detections | Top classes |
+|---|---|---|---|
+| ClearNoon | 600 | 2,235 | car 1,266 · traffic light 643 · truck 203 |
+| ClearNight | 600 | 2,014 | traffic light 1,212 · car 571 · truck 93 |
+| HardRainNoon | 600 | 857 | traffic light 407 · car 280 |
+
+**Heavy rain cuts detections by 62%** vs clear noon (cars: −78%). At night, traffic lights dominate (they glow) while car detections halve. Same degraded-visibility weakness the COCO per-class analysis surfaced — now reproduced in simulation, per scenario, from logged data (`runs/carla_log_<weather>.csv`).
+
+![CARLA closed-loop sample — ClearNoon](runs/carla_frames/ClearNoon_00200.jpg)
 
 ## Roadmap
 

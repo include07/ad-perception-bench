@@ -118,14 +118,21 @@ def main() -> None:
                                 result.plot())
         print(f"Done: {args.frames} frames -> {log_csv}, samples in {OUT_DIR}")
     finally:
-        camera.stop()
-        camera.destroy()
-        for actor in traffic:
-            actor.destroy()
-        ego.destroy()
+        # Restore async mode BEFORE destroying actors: destroying while the
+        # traffic manager still runs synchronously raises "destroyed actor"
+        # errors in libcarla's teardown.
+        try:
+            camera.stop()
+        except Exception:
+            pass
         tm.set_synchronous_mode(False)
         settings.synchronous_mode = False
         world.apply_settings(settings)
+        for actor in [camera, *traffic, ego]:
+            try:
+                actor.destroy()
+            except Exception:
+                pass
 
 
 if __name__ == "__main__":
